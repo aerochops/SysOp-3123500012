@@ -118,119 +118,164 @@ Sebutkan dan jelaskan proses booting!
 
 1. ` `Tunggu proses loading hingga selesai.
 
-   ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.016.jpeg)
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/proses%20loading.png?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.017.jpeg) Input nama host, lalu klik lanjutkan
+1. Input nama host, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/9.%20Input%20nama%20host.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.018.jpeg) Kosongkan nama domain dan klik lanjutkan
+1. Kosongkan nama domain dan klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/10.%20Input%20domain.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.019.jpeg) Input kata sandi root, lalu klik lanjutkan
+1. Input kata sandi root, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/11.%20Kata%20sandi%20root.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.020.jpeg) Input Nama akun, lalu klik lanjutkan
+1. Input Nama akun, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/12.%20Nama%20akun.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.021.jpeg) Input nama pengguna, disarankan huruf kecil semua, lalu klik lanjutkan
+1. Input nama pengguna, disarankan huruf kecil semua, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/13.%20Nama%20pengguna.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.022.jpeg) Input Password pengguna, lalu klik lanjutkan
+1. Input Password pengguna, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/14.%20Password%20pengguna.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.023.jpeg) Atur waktu tempat anda berada, lalu klik lanjutkan
+1. Atur waktu tempat anda berada, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/15.%20Mengatur%20waktu.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.024.jpeg) Pilih ‘manual’ pada halaman metode pemartisian, lalu klik lanjutkan
+1. Pilih ‘manual’ pada halaman metode pemartisian, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/16.%20Metode%20pemartisian.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.025.jpeg) Pilih opsi ‘ya’ pada halaman pembuat partisi baru
+1. Pilih opsi ‘ya’ pada halaman pembuat partisi baru
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/17.%20Opsi%20buat%20partisi%20baru.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.026.jpeg) Pilih ‘SCSI2’ pada halaman pemilihan partisi hard disk, lalu klik lanjutkan
+1. Pilih ‘SCSI2’ pada halaman pemilihan partisi hard disk, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/18.%20Pemilihan%20partisi.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.027.jpeg) Pilih ‘ruang kosong’ yang pertama, lalu klik lanjutkan
+1. Pilih ‘ruang kosong’ yang pertama, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/19.%20Pemilihan%20partisi%20HD_1.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.028.jpeg) Pilih ‘buat partisi baru’ lalu klik lanjutkan
+1. Pilih ‘buat partisi baru’ lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/20.%20Pembuatan%20partisi%20HD_1.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.029.jpeg) Input 20 GB untuk ukuran partisi pertama, lalu klik lanjutkan
+1. Input 20 GB untuk ukuran partisi pertama, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/21.%20Ukuran%20partisi%20HD_1.jpeg?raw=true)
 
-1. ![ref1] Pilih ‘primer’ pada halaman jenis partisi, lalu klik lanjutkan
+1. Pilih ‘primer’ pada halaman jenis partisi, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/22.%20Jenis%20partisi%20HD_1.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.031.jpeg) Pilih ‘awal’ pada lokasi partisi, lalu klik lanjutkan
+1. Pilih ‘awal’ pada lokasi partisi, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/23.%20Lokasi%20partisi%20HD_1.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.032.jpeg) Double click pada’penanda bisa boot’
+1. Double click pada’penanda bisa boot’
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/24.%20Penyusunan%20partisi%20HD_1%20II.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.033.jpeg) Hasilnya akan seperti ini, lalu double klik ‘selesai menyusun partisi’
+1. Hasilnya akan seperti ini, lalu double klik ‘selesai menyusun partisi’
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/25.%20Penyusunan%20partisi%20HD_1%20III.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.034.jpeg) Pilih ‘ruang kosong’ yang kedua, lalu klik lanjutkan
+1. Pilih ‘ruang kosong’ yang kedua, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/26.%20Pemilihan%20partisi%20HD_2.jpeg?raw=true)
 
-1. ![ref2] Pilih ‘buat partisi baru’ lalu klik lanjutkan
+1. Pilih ‘buat partisi baru’ lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/27.%20Pembuatan%20partisi%20HD_2.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.036.jpeg) Input 5 GB untuk ukuran partisi kedua, lalu klik lanjutkan
+1. Input 5 GB untuk ukuran partisi kedua, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/28.%20Ukuran%20partisi%20HD_2.jpeg?raw=true)
 
-1. ![ref1] Pilih ‘primer’ pada halaman jenis partisi, lalu klik lanjutkan
+1. Pilih ‘primer’ pada halaman jenis partisi, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/29.%20Jenis%20partisi%20HD_2.jpeg?raw=true)
 
-1. ![ref3] Pilih ‘awal’ pada lokasi partisi, lalu klik lanjutkan
+1. Pilih ‘awal’ pada lokasi partisi, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/30.%20Lokasi%20partisi%20HD_2.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.038.jpeg) Double click pada’titik kait’
+1. Double click pada’titik kait’
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/31.%20Penyusunan%20partisi%20HD_2%20I.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.039.jpeg) Ganti ‘/home’ menjadi ‘/storage’, lalu klik lanjutkan
+1. Ganti ‘/home’ menjadi ‘/storage’, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/32.%20Penyusunan%20partisi%20HD_2%20II.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.040.jpeg) Hasilnya akan seperti ini, lalu double klik ‘selesai menyusun partisi’
+1. Hasilnya akan seperti ini, lalu double klik ‘selesai menyusun partisi’
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/33.%20Penyusunan%20partisi%20HD_2%20III.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.041.jpeg) Pilih ‘ruang kosong’ yang ketiga, lalu klik lanjutkan
+1. Pilih ‘ruang kosong’ yang ketiga, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/34.%20Pemilihan%20partisi%20HD_3.jpeg?raw=true)
 
-1. ![ref2] Pilih ‘buat partisi baru’ lalu klik lanjutkan
+1. Pilih ‘buat partisi baru’ lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/35.%20Pembuatan%20partisi%20HD_3.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.042.jpeg) Input 1.5 GB untuk ukuran partisi ketiga, lalu klik lanjutkan
+1. Input 1.5 GB untuk ukuran partisi ketiga, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/36.%20Ukuran%20partisi%20HD_3.jpeg?raw=true)
 
-1. ![ref1] Pilih ‘primer’ pada halaman jenis partisi, lalu klik lanjutkan
+1. Pilih ‘primer’ pada halaman jenis partisi, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/37.%20Jenis%20partisi%20HD_3.jpeg?raw=true)
 
-1. ![ref3] Pilih ‘awal’ pada lokasi partisi, lalu klik lanjutkan
+1. Pilih ‘awal’ pada lokasi partisi, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/38.%20Lokasi%20partisi%20HD_3.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.043.jpeg) Double click pada’gunakan sebagai’
+1. Double click pada’gunakan sebagai’
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/39.%20Penyusunan%20partisi%20HD_3%20I.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.044.jpeg) Pilih ‘ruang swap’ lalu klik lanjutkan
+1. Pilih ‘ruang swap’ lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/40.%20Penyusunan%20partisi%20HD_3%20II.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.045.jpeg) Double click pada’penanda bisa-boot’
+1. Double click pada’penanda bisa-boot’
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/41.%20Penyusunan%20partisi%20HD_3%20III.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.046.jpeg) Hasilnya akan seperti ini, lalu klik lanjutkan
+1. Hasilnya akan seperti ini, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/42.%20Penyusunan%20partisi%20HD_3%20IV.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.047.jpeg) Pilih ‘selesai mempartisi’ lalu klik lanjutkan
+1. Pilih ‘selesai mempartisi’ lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/43.%20Selesai%20mempartisi.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.048.jpeg) Pilih ‘ya’ pada halaman konfirmasi perubahan
+1. Pilih ‘ya’ pada halaman konfirmasi perubahan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/44.%20Konfirmasi%20perubahan.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.049.jpeg) Pada opsi instalasi tambahan pilih ‘tidak’ lalu klik lanjutkan
+1. Pada opsi instalasi tambahan pilih ‘tidak’ lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/45.%20opsi%20instlasi%20tambahan.jpeg?raw=true)
 
-   ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.050.jpeg)
+1. Pada halaman cermin arsip pilih ‘Indonesia’ lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/46.%20Opsi%20cermin%20arsip.jpeg?raw=true)
 
-1. ` `Pada halaman cermin arsip pilih ‘Indonesia’ lalu klik lanjutkan
+1. Pada halaman cermin arsip Debian pilih ‘kebo-pens.ac.id’ lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/47.%20Cermin%20arsip%20debian.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.051.jpeg) Pada halaman cermin arsip Debian pilih ‘kebo-pens.ac.id’ lalu klik lanjutkan
+1. Pada halaman proxy kosongkan inputan jika tidak ada, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/48.%20Alamat%20proxy.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.052.jpeg) Pada halaman proxy kosongkan inputan jika tidak ada, lalu klik lanjutkan
+1. Klik ‘ya’ pada halaman survey penggunaan, lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/49.%20Opsi%20survey.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.053.jpeg) Klik ‘ya’ pada halaman survey penggunaan, lalu klik lanjutkan
+1. Centang seperti di gambar lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/50.%20Opsi%20pemilihan%20perangkat.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.054.jpeg) Centang seperti di gambar lalu klik lanjutkan
+1. Pilih ‘ya’ pada halaman pasang boot loader lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/51.%20Opsi%20pasang%20boot%20loader.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.055.jpeg) Pilih ‘ya’ pada halaman pasang boot loader lalu klik lanjutkan
+1. Pada halaman pemasangan boot loader pilih ‘/dev/sda….’ Lalu klik lanjutkan
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/52.%20Opsi%20piranti%20pemasangan%20boot%20loader.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.056.jpeg)Pada halaman pemasangan boot loader pilih ‘/dev/sda….’ Lalu klik lanjutkan
+1. Klik kanjutkan jika instalasi sudah selesai
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/53.%20Boot%20ulang.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.057.jpeg) Klik kanjutkan jika instalasi sudah selesai
+1. Pilih ‘debian gnu/linux’ lalu tekan enter
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/54.%20Opsi%20running.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.058.jpeg) Pilih ‘debian gnu/linux’ lalu tekan enter
+1. Akan muncul tampilan seperti ini jika selesai
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/55.%20Foto.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.059.jpeg)Akan muncul tampilan seperti ini jika selesai
+1. Inputkan password lalu tekan enter
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/56.%20Tampilan%20awal%20debian.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.060.jpeg) Inputkan password lalu tekan enter
+1. Pilih Bahasa lalu klik selanjutnya
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/58.%20Pilih%20bahasa.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.061.jpeg)Pilih Bahasa lalu klik selanjutnya
+1. Pada halaman tata letak keyboard pilih sesuai negara anda, lalu klik selanjutnya
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/59.%20opsi%20tata%20letak%20keyboard.jpeg?raw=true)
 
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.062.jpeg)Pada halaman tata letak keyboard pilih sesuai negara anda, lalu klik selanjutnya
-
-1. ![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.063.jpeg)Setelah selesai klik ‘memulai memakai Debian GNU/linux’
+1. Setelah selesai klik ‘memulai memakai Debian GNU/linux’
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/62.%20konfirmasi.jpeg?raw=true)
 
 1. Tampilan Debian akan seperti ini
 
-![](Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.064.jpeg)
-
-[ref1]: Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.030.jpeg
-[ref2]: Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.035.jpeg
-[ref3]: Aspose.Words.08797166-63bf-4b2a-8196-cfd0b10822da.037.jpeg
+![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/Img/63.%20Tampilan%20debian.jpeg?raw=true)
 
 </p>
 
