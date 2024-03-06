@@ -23,9 +23,9 @@ Sebelum kita masuk pada penjelasan mengenai langkah langkah proses booting pada 
 
 ### Apa itu BIOS?
 
-<img src="./media/bios.jpg"
+<img src="../week2/Img/bios.jpg"
 style="width:340px; object-fit: cover;"/>
-<img src="./media/biosdisplay.jpg"
+<img src="../week2/Img/biosdisplay.jpg"
 style="width:300px; object-fit: cover;"/>
 
 BIOS adalah kependekan dari Sistem Input/Output Dasar. Ini adalah antarmuka firmware mendasar yang ditemukan di komputer. Selama proses booting, ia bertanggung jawab untuk menginisialisasi komponen perangkat keras, seperti prosesor, memori, dan perangkat penyimpanan. BIOS menyediakan instruksi yang diperlukan komputer untuk memulai dan memuat sistem operasi.
@@ -34,7 +34,7 @@ BIOS telah ada selama beberapa dekade. Inilah salah satu alasan mengapa bios bek
 
 ### Apa itu UEFI?
 
-<img src="./media/uefi.jpg"
+<img src="../week2/Img/uefi.jpg"
 style="width:300px; object-fit: cover;"/>
 
 UEFI (Unified Extensible Firmware Interface) adalah antarmuka firmware modern yang menggantikan BIOS lama di komputer. Ini menjembatani kesenjangan antara perangkat keras komputer dan sistem operasi, memungkinkan kompatibilitas, keamanan, dan fungsionalitas yang lebih baik.
@@ -129,63 +129,63 @@ Meskipun UEFI memiliki banyak keunggulan, UEFI mungkin tidak diperlukan untuk se
 
 ## Apa itu Motherboard?
 
-![alt text](media/image.png)
+![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/imageMotherboard.png?raw=true)
 Komputer adalah perangkat elektronik yang memproses data sesuai dengan kebutuhan pengguna menggunakan perangkat IO. Pemrosesan data terjadi di dalam prosesor, sebuah komponen penting. Prosesor terletak di papan sirkuit perangkat keras yang disebut motherboard atau papan sirkuit tercetak (PCB).
 
 ### Komponen Motherboard :
 
 1. Slot CPU: Slot ini berfungsi sebagai penghubung antara motherboard dan mikroprosesor. Slot ini membuat CPU lebih mudah dioperasikan dan melindungi CPU dari bahaya saat memasang atau melepasnya. Slot ini juga memiliki kunci untuk menghentikan pergerakan CPU dan pendingin untuk menghilangkan panas tambahan.
 
-   ![alt text](media/image-1.png)
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/CPU.png?raw=true)
 
 2. RAM Slot : RAM (Random Access Memory) dipasang di slot atau soket memori pada motherboard. Komputer mungkin memiliki dua slot memori atau lebih.
 
-   ![alt text](media/image-2.png)
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/RAM.png?raw=true)
 
 3. Expansion Slot : Sering disebut sebagai port ekstensi atau slot bus. Ini adalah koneksi atau port pada motherboard yang menawarkan tempat untuk meletakkan kartu ekspansi untuk komponen. Slot ini juga dikenal dengan nama slot bus dan port ekspansi. Ini adalah port atau koneksi pada motherboard yang menawarkan tempat untuk menambahkan kartu ekspansi perangkat keras. Misalnya, Anda dapat membeli kartu ekspansi video, menaruhnya di slot ekspansi, dan kemudian memasang kartu video baru di komputer. AGP, AMR, CNR, PCI, dan slot ekspansi populer lainnya di komputer hanyalah beberapa contoh.
 
-   ![alt text](media/image-3.png)
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/expansionSlot.png?raw=true)
 
 4. Capacitor : Dua pelat konduksi dan isolator tipis ditempatkan bersama untuk membentuk kapasitor. Komponen-komponen ini terkandung dalam kantong plastik.
 
-   ![alt text](media/image-4.png)
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/Capacitor.png?raw=true)
 
 5. Inductor (Coil) : Kawat penghantar dililitkan di sekitar inti besi untuk membuat kumparan elektromagnetik yang dikenal sebagai induktor. Induktor menyimpan energi magnetik dengan berfungsi sebagai elektromagnet atau induktor.
 
-   ![alt text](media/image-5.png)
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/Inductor.png?raw=true)
 
 6. Northbridge: Chip terintegrasi yang disebut northbridge memungkinkan komunikasi antara antarmuka CPU, AGP, dan memori. Selain itu, chip ini memungkinkan komunikasi antara chip southbridge dan pengontrol grafis, CPU, dan RAM.
 
-   ![alt text](media/image-7.png)
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/Northbridge.png?raw=true)
 
 7. Southbridge: Mengontrol fungsi input dan output. Karena lokasinya, ini disebut sebagai southbridge. ini memungkinkan komunikasi antara chip northbridge.
 
-   ![alt text](media/image-7.png)
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/Southbridge.png?raw=true)
 
 8. USB Port : Tempat memasang perangkat keras seperti mouse dan keyboard ke komputer menggunakan port USB.
 
-   ![alt text](media/image-8.png)
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/USB%20Port.png?raw=true)
 
 9. PCI Slot : Slot ini memungkinkan Anda menyambungkan perangkat keras Peripheral Component Interconnect Slot (PCI), seperti kartu suara dan video, perangkat keras jaringan, dan modem. Slot ini digunakan untuk menyambungkan periferal.
 
-   ![alt text](media/image-9.png)
+   ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/PCI%20Slot.png?raw=true)
 
 10. AGP Slot : Disebut sebagai slot Accelerated Graphics Port (AGP). Slot untuk menyambungkan kartu grafis disediakan. Slot ini digunakan untuk menampilkan grafik pada layar.
 
-    ![alt text](media/image-10.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/AGP%20Slot.png?raw=true)
 
 11. Heat Sink : Panas yang dihasilkan oleh prosesor komputer diserap dan disebarkan oleh heat sink. Fungsi utamanya adalah mendinginkan CPU dengan menyerap panas saat sistem berjalan.
 
-    ![alt text](media/image-11.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/Heat%20Sink.png?raw=true)
 
 12. Power Connector : Tujuan konektor daya adalah untuk memberikan daya ke motherboard.
 
-    ![alt text](media/image-12.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/Power%20Connector.png?raw=true)
 
 13. CMOS Battery : Semikonduktor Oksida Logam Pelengkap adalah singkatan dari Baterai CMOS. Ini adalah memori penyimpanan. Baterai yang menyediakan daya cadangan.
 
-    ![alt text](media/image-13.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week2/Img/CMOS%20Battery.png?raw=true)
 
 14. Integrated Circuits (IC) : IC juga merupakan komponen yang sangat penting dari motherboard. Sirkuit terpadu digunakan untuk pemrosesan dan penyimpanan data.
 
-    ![alt text](media/image-14.png)
+    ![App Screenshot](<https://github.com/aerochops/Tugas_1/blob/main/week2/Img/Integrated%20Circuits%20(IC).png?raw=true>)
