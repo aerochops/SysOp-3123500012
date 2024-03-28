@@ -7,9 +7,9 @@
   <img src="https://upload.wikimedia.org/wikipedia/id/4/44/Logo_PENS.png" alt="Logo PENS">
   <h3 style="text-align: center;">Disusun Oleh : </h3>
   <p style="text-align: center;">
-    <strong>Fauzan Abderrasheed (3123500020) </strong><br>
-    <strong>Muhammad Rafi Dhiyaulhaq (3123500004) </strong><br>
-    <strong>Arva Zaki Fanadzan (3123500014)</strong>
+    <strong>Fikri Athanabil Effendi (3123500012) </strong><br>
+    <strong>Danur Isa Prabutama (3123500023) </strong><br>
+    <strong>Achmad Risel Araby (3123500025)</strong>
   </p>
 <h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2023/2024</h3>
   <hr><hr>
@@ -147,8 +147,7 @@ Jawablah pertanyaan-pertanyaan di bawah ini :
 2. Download program C++ untuk menampilkan bilangan prima yang bernama
 primes
 
-    ![App Screenshot](img/installc++.png)
-    ![App Screenshot](img/primes.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/download%20c++.png?raw=true)
 
     Analisa : 
     Program di atas menampilkan bilangan prima sampai ke N. Ketika dijalankan, program meminta input N dari pengguna dan menampilkan bilangan prima sampai mencapai bilangan N.
@@ -163,35 +162,36 @@ dan login ke terminal sebagai user
 
 2. Instruksi `ps`
 
-    ![App Screenshot](img/ps.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/1.1.png?raw=true)
 
     Analisa : 
     Instruksi `ps` digunakan untuk melihat kondisi proses yang ada 
 
 3. Instruksi `ps -u`
 
-    ![App Screenshot](img/ps-u.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/1.2.png?raw=true)
 
     Analisa : 
     Instruksi `ps -u` (user), digunakan untuk melihat elemen/faktor lain dari kondisi proses yang ada serta menampilkan nama user
 
 4. Instruksi `ps -u <user>`
 
-    ![App Screenshot](img/ps-u-user.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/1.3.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/1.3.2.png?raw=true)
 
     Analisa :
     Mencari proses yang spesifik pemakai. Proses diatas hanya terbatas pada proses milik pemakai. Perintah tersebut digunakan untuk menampilkan proses pada user yang kita inginkan.
 
 5. Instruksi `ps -a`
 
-    ![App Screenshot](img/ps-a.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/1.4.png?raw=true)
 
     Analisa :
     Perintah tersebut digunakan untuk menampilkan daftar dari semua proses yang sedang berjalan
 
 6. Instruksi `ps -au`
 
-    ![App Screenshot](img/ps-au.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/1.5.png?raw=true)
 
     Analisa :
     Perintah ps -au digunakan untuk menampilkan informasi yang lebih rinci tentang semua proses yang sedang berjalan, termasuk proses yang dimiliki oleh pengguna (termasuk proses terminal yang sedang dijalankan) dan proses sistem.
@@ -207,42 +207,47 @@ dan login ke terminal sebagai user
 
 2. Instruksi `ps -eH`
 
-    ![App Screenshot](img/ps-eH.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/2.1.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/2.1.2.png?raw=true)
 
     Analisa : 
     Perintah tersebut digunakan untuk menampilkan seluruh proses secara hierarki. Dimana opsi *e* digunakan untuk memilih semua proses dan opsi *H* untuk menghasilkan tampilan proses secara hierarki. 
 
 3. Instruksi `ps -e f`
 
-    ![App Screenshot](img/ps-e-f.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/2.2.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/2.2.2.png?raw=true)
 
     Analisa : 
     Menghasilkan tampilan serupa dengan langkah 2. Opsi *f* disini berfungsi untuk menampilkan STAT dari sebuah proses dan menampilkan status proses dengan karakter grafis ( \ dan _ ) 
 
 4. Instruksi `pstree`
 
-    ![App Screenshot](img/pstree.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/2.3.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/2.3.2.png?raw=true)
 
     Analisa : 
     Gambar diatas tampak seperti pohon atau diagram. Perintah tersebut berfungsi untuk menampilkan struktur proses yang berjalan di sistem secara hirarkis parent/child.
 
 5. Instruksi `pstree | grep mingetty`
 
-    ![App Screenshot](img/pstree-grep-mingetty.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/2.4.png?raw=true)
 
     Analisa : 
     Perintah ini berfungsi untuk menampilkan semua proses mingetty yang berjalan pada sistem yang berupa console virtual. Pada gambar diatas tidak ada output yang keluar dikarenakan tidak ada proses mingetty yang sedang berjalan
 
 6. Instruksi `pstree -p`
 
-    ![App Screenshot](img/pstree-p.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/2.5.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/2.5.2.png?raw=true)
 
     Analisa : 
     Perintah `pstree` -p dalam sistem operasi Linux adalah varian dari perintah pstree yang menampilkan struktur proses dalam bentuk pohon, namun dengan tambahan informasi tentang ID proses (PID) untuk setiap proses yang ditampilkan.
 
 7. Instruksi `pstree -h`
 
-    ![App Screenshot](img/pstree-h.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/2.6.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/2.6.2.png?raw=true)
 
     Analisa : 
     Dalam sistem Linux, perintah `pstree -h` digunakan untuk menampilkan struktur proses dalam bentuk pohon dengan opsi "human-readable" yang menyederhanakan ukuran angka yang besar ke format yang lebih mudah dipahami manusia.
@@ -254,35 +259,40 @@ dan login ke terminal sebagai user
 
 2. Instruksi `ps -e | more`
 
-    ![App Screenshot](img/ps-e-more.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/3.1.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/3.1.2.png?raw=true)
 
     Analisa : 
     Perintah `ps -e | more` berfungsi untuk menampilkan daftar semua proses yang sedang berjalan di sistem secara berurutan, dan outputnya akan ditampilkan secara bertahap menggunakan perintah `more`
 
 3. Instruksi `ps ax | more`
 
-    ![App Screenshot](img/ps-ax-more.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/3.2.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/3.2.2.png?raw=true)
 
     Analisa : 
     Opsi a akan menampilkan semua proses yang dihasilkan terminal (TTY). Opsi x menampilkan semua proses yang tidak dihasilkan terminal. Yang kemudian outputnya ditampilkan secara bertahap menggunakan perintah `more`
 
 4. Instruksi `ps ef | more`
 
-    ![App Screenshot](img/ps-ef-more.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/3.3.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/3.3.2.png?raw=true)
 
     Analisa : 
     Ketika perintah `ps – ef | more` dieksekusi maka opsi *-ef* akan menampilkan semua proses dalam format daftar penuh. Yang kemudian outputnya ditampilkan secara bertahap menggunakan perintah `more`
 
 5. Instruksi `ps -eo pid,cmd | more`
 
-    ![App Screenshot](img/ps-eo-pid-cmd-more.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/3.4.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/3.4.2.png?raw=true)
 
     Analisa : 
     Opsi `–eo` akan menampilkan semua proses dalam format sesuai definisi user yaitu terdiri dari kolom PID dan CMD. Yang kemudian outputnya akan ditampilkan secara bertahap menggunakan perintah `more`
 
 6. Instruksi `ps -eo pid,ppid,%mem,cmd | more`
 
-    ![App Screenshot](img/ps-eo-pid-ppid-cmd-more.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/3.5.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/3.5.2.png?raw=true)
 
     Analisa : 
     Perintah `ps -eo pid,ppid,%mem,cmd | more` akan menampilkan kolom PID, PPID dan %MEM. Dimana PPID adalah proses ID dari proses parent. %MEM menampilkan persentasi memory system yang digunakan proses. Jika proses hanya menggunakan sedikit memory system akan ditampilkan 0.
@@ -295,42 +305,44 @@ dan login ke terminal sebagai user
 
 2. Instruksi `yes`
 
-    ![App Screenshot](img/yes.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/4.1.1.png?raw=true)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/4.1.2.png?raw=true)
 
     Analisa : 
     Perintah `yes` akan memberikan output huruf y yang tidak pernah berhenti. Untuk menghentikannya harus menggunakan *Ctrl + C*
 
 3. Instruksi `yes > /dev/null`
 
-    ![App Screenshot](img/yes-dev-null.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/4.2.png?raw=true)
 
     Analisa : 
     Membelokkan standard output dari perintah `yes` ke `/dev/null`. Untuk menghentikannya harus menggunakan *Ctrl + C*.
 
 4. Instruksi `yes > /dev/null &`
 
-    ![App Screenshot](img/yes-dev-null-2.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/4.3.png?raw=true)
 
     Analisa : 
     Salah satu cara agar perintah `yes` tetap dijalankan tetapi shell tetap digunakan untuk hal yang lain dengan meletakkan proses pada background dengan menambahkan karakter `&` pada akhir perintah. `[1]` merupakan job number PID.
 
 5. Instruksi `jobs`
 
-    ![App Screenshot](img/jobs-running.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/4.4.png?raw=true)
 
     Analisa : 
     Perintah di atas digunakan untuk melihat status proses yang telah digunakan.
 
 6. Instruksi `kill %<nomor jobs>`
 
-    ![App Screenshot](img/kill.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/4.5.png?raw=true)
+
 
     Analisa : 
     Perintah `kill` digunakan untuk menghentikan job diikuti oleh *job number* atau PID Proses. Untuk identifikasi job number, penulisan perintah diikuti prefix dengan karakter `%`.
 
 7. Instruksi `jobs`
 
-    ![App Screenshot](img/jobs-terminated.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week5/img/4.6.png?raw=true)
 
     Analisa : 
     Ini adalah tahap terakhir, yaitu menggunakan perintah `jobs` untuk melihat status job setelah diterminasi.
