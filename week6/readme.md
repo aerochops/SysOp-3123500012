@@ -7,9 +7,9 @@
   <img src="https://upload.wikimedia.org/wikipedia/id/4/44/Logo_PENS.png" alt="Logo PENS">
   <h3 style="text-align: center;">Disusun Oleh : </h3>
   <p style="text-align: center;">
-    <strong>Fauzan Abderrasheed (3123500020) </strong><br>
-    <strong>Muhammad Rafi Dhiyaulhaq (3123500004) </strong><br>
-    <strong>Arva Zaki Fanadzan (3123500014)</strong>
+    <strong>Fikri Athanabil Effendi (3123500012) </strong><br>
+    <strong>Danur Isa Prabutama (3123500023) </strong><br>
+    <strong>Achmad Risel Araby (3123500025)</strong>
   </p>
 <h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2023/2024</h3>
   <hr><hr>
@@ -88,71 +88,74 @@
 
 2. Buka 3 terminal, tampilkan pada screen yang sama. 
 
-    ![App Screenshot](img/pcb6/login-root.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.2.png?raw=true)
+
 
 3. Pada setiap terminal, ketik `PS1 = ” \w:”` diikuti Enter. `\w` menampilkan path pada direktori home.
 
-    ![App Screenshot](img/pcb6/ps1-w.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.2.png?raw=true)
+
 
 4. Karena login sebagai root, maka akan ditampilkan `~:` pada setiap terminal. Untuk setiap terminal ketik `pwd` dan tekan *Enter* untuk melihat bahwa Anda sedang berada pada direktori `/root`.
 
-    ![App Screenshot](img/pcb6/pwd.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.2.png?raw=true)
+
 
 5. Buka terminal lagi (keempat), atur posisi sehingga keempat terminal terlihat pada screen
 
-    ![App Screenshot](img/pcb6/4-terminal.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.5.png?raw=true)
 
 6. Pada terminal keempat, ketik `top` dan tekan *Enter*. Maka program `top` akan muncul. Ketik `i`. Top akan menampilkan proses yang aktif. Ketik `lmt`. `Top` tidak lagi menampilkan informasi pada bagian atas dari screen. Pada percobaan ini, terminal ke empat sebagai jendela `Top`.
 
-    ![App Screenshot](img/pcb6/top.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.6.1.png?raw=true)
 
-    ![App Screenshot](img/pcb6/top-i.png)
-
-    ![App Screenshot](img/pcb6/top-lmt.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.6.2.png?raw=true)
 
 7. Pada terminal 1, bukalah program executable C++ dengan mengetik program `yes` dan tekan *Enter*.
 
-    ![App Screenshot](img/pcb6/terminal-1-yes.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.7.png?raw=true)
 
 8. Ulangi langkah 7 untuk terminal 2
 
-    ![App Screenshot](img/pcb6/terminal-2-yes.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.8.png?raw=true)  
 
 9. Jendela Top akan menampilkan dua program `yes` sebagai proses yang berjalan. Nilai `%CPU` sama pada keduanya. Hal ini berarti kedua proses mengkonsumsi waktu proses yang sama dan berjalan sama cepat. *PID* dari kedua proses akan berbeda, misalnya pada contoh di bawah adalah 2835 dan 2837. Kemudian gunakan terminal 3 (yang tidak menjalankan primes maupun Jendela Top) dan ketik *renice 19 2835* dan diikuti Enter. Hal ini berarti mengganti penjadwalan prioritas dari proses ke 19.
 
-    ![App Screenshot](img/pcb6/terminal-4-2yes.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.9.1.png?raw=true)  
 
-    ![App Screenshot](img/pcb6/terminal-3-renice.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.9.2.png?raw=true)  
 
 10. Tunggu beberapa saat sampai program top berubah dan terlihat pada jendela `Top`. Pada kolom `STAT` memperlihatkan `N` untuk proses 2835. Hal ini berarti bahwa penjadwalan prioritas untuk proses 2835 lebih besar (lebih lambat) dari 0. Proses 2837 berjalan lebih cepat.
 
-    ![App Screenshot](img/pcb6/terminal-4-after-renice.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.10.png?raw=true)  
 
 11. Program *top* juga mempunyai fungsi yang sama dengan program `renice`. Pilih Jendela *Top* dan tekan `r`. Program top terdapat prompt PID to renice: tekan 2835 dan tekan Enter. Program top memberikan prompt Renice PID 3148 to value: tekan -19 dan tekan Enter.
 
-    ![App Screenshot](img/pcb6/terminal-4-r.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.11.1.png?raw=true)  
 
-    ![App Screenshot](img/pcb6/terminal-4-19.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.11.2.png?raw=true)  
 
 12. Tunggu beberapa saat sampai top berubah dan lihat nilai %CPU pada kedua proses. Sekarang proses 2835 lebih cepat dari proses 2837. Kolom status menunjukkan < pada proses 3148 yang menunjukkan penjadwalan prioritas lebih rendah (lebih cepat) dari nilai 0
 
-    ![App Screenshot](img/pcb6/terminal-4-19-after.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.12.png?raw=true)  
 
 13. Pilih terminal 3 (yang sedang tidak menjalankan yes atau program top) dan ketik nice –n -10 yes dan tekan Enter. Tunggu beberapa saat agar program top berubah dan akan terlihat proses primes ketiga. Misalnya PID nya 2845. Opsi -10 berada pada kolom NI (penjadwalan prioritas).
 
-    ![App Screenshot](img/pcb6/terminal-3-nice-10-yes.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.13.1.png?raw=true)
+
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.13.2.png?raw=true)  
 
 14. Jangan menggunakan mouse dan keyboard selama 10 detik. Program top menampilkan proses yang aktif selain program yes. Maka akan terlihat proses top terdaftar tetapi %CPU kecil (dibawah 1.0) dan konsisten. Juga terlihat proses berhubungan dengan dekstop grafis seperti X, panel dll.
 
-    ![App Screenshot](img/pcb6/terminal-4-proses-top.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.14.png?raw=true)  
 
 15. Pindahkan mouse sehingga kursor berubah pada screen dan lihat apa yang terjadi dengan tampilan top. Proses tambahan akan muncul dan nilai %CPU berubah sebagai bagian grafis yang bekerja. Satu alasan adalah bahwa proses 2834 berjalan pada penjadwalan prioritas tinggi. Pilih jendela Top, ketik `r`. `PID to renice :` muncul prompt. Ketik 2834 dan tekan Enter. `Renice PID 2834 to value:` muncul prompt. Ketik 0 dan tekan Enter. Sekarang pindahkan mouse ke sekeliling screen. Lihat perubahannya
 
-    ![App Screenshot](img/pcb6/terminal-4-top-r.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.15.1.png?raw=true)  
 
-    ![App Screenshot](img/pcb6/terminal-4-top-r-0.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.15.2.png?raw=true)  
 
-    ![App Screenshot](img/pcb6/terminal-4-last.png)  
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/6.16.3.png?raw=true)  
 
 16. Tutup semua terminal window.
 
@@ -162,7 +165,7 @@
 
 1. Masuk ke tty2 dengan *Ctrl+Alt+F2*. Ketik `ps –au` dan tekan Enter. Kemudian perhatikan keluaran sebagai berikut :
 
-    ![App Screenshot](img/latihan/ps-au.png)
+    ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.1.1.png?raw=true)
 
     - Sebutkan nama-nama proses yang bukan root
         - Semua proses kecuali `/bin/login -p--` adalah bukan root 
@@ -185,7 +188,7 @@
         `$ sh`
         `$ ps`
 
-        ![App Screenshot](img/latihan/1-e-prompt.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.1.2.png?raw=true)
 
         perintah `$ csh` adalah sebuah shell interaktif yang menawarkan lebih banyak sintaks dibandingkan dengan Bourne Shell. 
         perintah `$ bash` digunakan untuk mengkonversi instruksi yang dimasukkan ke dalam bahasa biner yang dapat dimengerti oleh kernel Linux. 
@@ -208,82 +211,84 @@
 2. Cobalah format tampilan ps dengan opsi berikut dan perhatikan hasil tampilannya :
     - `-f` daftar penuh
 
-        ![App Screenshot](img/latihan/ps-f.png)  
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.2.1.png?raw=true)  
 
     - `-j` format job
 
-        ![App Screenshot](img/latihan/ps-j.png)  
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.2.2.png?raw=true)  
 
     - `j` format job control
 
-        ![App Screenshot](img/latihan/ps_j.png)  
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.2.3.png?raw=true)  
 
     - `l` daftar memanjang
 
-        ![App Screenshot](img/latihan/ps_l.png) 
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.2.4.png?raw=true) 
 
     - `s` format sinyal
 
-        ![App Screenshot](img/latihan/ps_s.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.2.5.png?raw=true)
 
     - `v` format virtual memory
 
-        ![App Screenshot](img/latihan/ps_v.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.2.6.png?raw=true)
 
     - `X` format register i386
 
-        ![App Screenshot](img/latihan/ps_X.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.2.7.png?raw=true)
 
 3. Lakukan urutan pekerjaan berikut :
 
     - Gunakan perintah `find` ke seluruh direktory pada sistem, belokkan output sehingga daftar direktori dialihkan ke file `directories.txt` dan daftar pesan error dialihkan ke file `errors.txt`
 
-        ![App Screenshot](img/latihan/2-a.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.1.png?raw=true)
 
     - Gunakan perintah `sleep 5`. Apa yang terjadi dengan perintah ini ?
 
-        ![App Screenshot](img/latihan/2-b.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.2.png?raw=true)
+
 
     - Jalankan perintah pada background menggunakan `&`
 
-        ![App Screenshot](img/latihan/2-c.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.3.png?raw=true)
 
     - Jalankan `sleep 15` pada foreground, hentikan sementara dengan Ctrl-Z dan kemudian letakkan pada background dengan `bg`. Ketikkan `jobs`. Ketikkan `ps`. Kembalikan job ke foreground dengan perintah `fg`.
 
-        ![App Screenshot](img/latihan/2-d.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.4.png?raw=true)
 
     - Jalankan `sleep 15` pada background menggunakan `&` dan kemudian gunakan perintah `kill` untuk menghentikan proses diikuti job number.
 
-        ![App Screenshot](img/latihan/2-e.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.5.png?raw=true)
 
     - Jalankan `sleep 15` pada background menggunakan `&` dan kemudian gunakan `kill` untuk menghentikan sementara proses. Gunakan `bg` untuk melanjutkan menjalankan proses.
 
-        ![App Screenshot](img/latihan/2-f.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.6.png?raw=true)
 
     - Jalankan `sleep 60` pada background 5 kali dan terminasi semua pada dengan menggunakan perintah `killall`.
 
-        ![App Screenshot](img/latihan/2-g.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.7.png?raw=true)
 
     - Gunakan perintah `ps`, `w` dan `top` untuk menunjukkan semua proses yang sedang dieksekusi.
 
-        ![App Screenshot](img/latihan/2-h-ps-w.png)
+        ![App Screenshot](![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.8.1.png?raw=true)
+)
 
-        ![App Screenshot](img/latihan/2-h-top.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.8.2.png?raw=true)
 
     - Gunakan perintah `ps –aeH` untuk menampilkan hierarki proses. Carilah init proses. Apakah Anda bisa identifikasi sistem daemon yang penting ? Dapatkan Anda identifikasi shell dan subproses ?
 
-        ![App Screenshot](img/latihan/2-i.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.9.1.png?raw=true)
 
-        ![App Screenshot](img/latihan/2-i-bash-ps.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.9.2.png?raw=true)
 
-        ![App Screenshot](img/latihan/2-i-systemd.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.9.3.png?raw=true)
 
     - Kombinasikan `ps –fae` dan grep, apa yang Anda lihat ?
 
-        ![App Screenshot](img/latihan/2-j.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.9.4.png?raw=true)
 
     - Jalankan proses `sleep 300` pada background. Log off komputer dan log in kembali. Lihat daftar semua proses yang berjalan. Apa yang terjadi pada proses sleep ?
 
-        ![App Screenshot](img/latihan/2-k-sleep.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.10.png?raw=true)
 
-        ![App Screenshot](img/latihan/2-k-ps.png)
+        ![App Screenshot](https://github.com/aerochops/Tugas_1/blob/main/week6/img/L.3.11.png?raw=true)
