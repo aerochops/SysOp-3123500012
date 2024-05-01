@@ -118,6 +118,8 @@ UEFI mendukung fitur-fitur lebih canggih yang tidak ada dalam sistem BIOS tradis
 Ini termasuk booting aman, yang melindungi sistem terhadap malware dan perangkat lunak tidak sah, dan booting jaringan, yang memungkinkan diagnostik dan manajemen jarak jauh.
 Kombinasi fitur ini menjadikan UEFI pilihan yang lebih serbaguna dan tangguh untuk kebutuhan komputasi kontemporer, terutama di lingkungan yang mengutamakan kinerja dan keamanan.
 
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week2/Img/uefi%20dan%20legacy.jpg?raw=true)
+
 ### Kesimpulan
 
 Saat mempertimbangkan perbedaan antara UEFI dan BIOS, terlihat jelas bahwa pilihan keduanya bergantung pada kebutuhan dan prioritas spesifik pengguna.
