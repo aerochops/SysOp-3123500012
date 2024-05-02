@@ -7,9 +7,9 @@
   <img src="https://upload.wikimedia.org/wikipedia/id/4/44/Logo_PENS.png" alt="Logo PENS">
   <h3 style="text-align: center;">Disusun Oleh : </h3>
   <p style="text-align: center;">
-    <strong>Fauzan Abderrasheed (3123500020) </strong><br>
-    <strong>Muhammad Rafi Dhiyaulhaq (3123500004) </strong><br>
-    <strong>Arva Zaki Fanadzan (3123500014)</strong>
+    <strong>Fikri Athanabil Effendi (3123500012) </strong><br>
+    <strong>Danur Isa Prabutama (3123500023) </strong><br>
+    <strong>Achmad Risel Araby (3123500025)</strong>
   </p>
 <h3 style="text-align: center;line-height: 1.5">Politeknik Elektronika Negeri Surabaya<br>Departemen Teknik Informatika Dan Komputer<br>Program Studi Teknik Informatika<br>2023/2024</h3>
   <hr><hr>
@@ -127,37 +127,37 @@ AGE=25
 
 ### Cara mengakses variabel di bash
 
-![App Screenshot](img/variable/var-access.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable/SNo1.png?raw=true)
 
 Pertama adalah mendeklarasikan variable *AGE* dengan memberikan nilai 25. Kemudian menggunakan `echo` untuk menampilkan outputnya. Simbol dollar `$` sebelum nama variable sangat penting untuk mengakses nilainya.
 
-![App Screenshot](img/variable/var-access-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable/J1.png?raw=true)
 
 ### Bash Shell readonly variables
 
-![App Screenshot](img/variable/var.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable/SNo2.png?raw=true)
 
 Setelah variabel diberi nilai, kita dapat mengubahnya ke nilai baru menggunakan operator penugasan =
 
-![App Screenshot](img/variable/var-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable/J2.png?raw=true)
 
 **Membuat Variable tidak dapat diperbarui**
 
-![App Screenshot](img/variable/var-readonly.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable/SNo3.png?raw=true)
 
 keyword `readonly` mencegah variable untuk diperbarui, secara efektif mengubahnya menjadi `constant`.
 
-![App Screenshot](img/variable/var-readonly-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable/J3.png?raw=true)
 
 ### Bash Unset Variable
 
 Keyword `unset` membantu menghilangkan nilai dari variable yang ditentukan. Variable tetap dapat diakses tetapi mencetak nilai kosong.
 
-![App Screenshot](img/variable/var-unset.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable/SNo4.png?raw=true)
 
 Output:
 
-![App Screenshot](img/variable/var-unset-output.png.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable/J4.png?raw=true)
 
 ### Variables Scope
 
@@ -174,7 +174,7 @@ Cakupan variabel di Bash dapat didefinisikan dengan dua cara
 
 Syntax:
 
-![App Screenshot](img/variable/var-global.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable/SNo5.png?raw=true)
 
 Output:
 
@@ -192,7 +192,7 @@ local variablename=variablevalue
 
 Dalam sintaks ini, variabel dideklarasikan dan ditetapkan dengan `local` kata kunci.
 
-![App Screenshot](img/variable/var-local.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable/SNo6.png?raw=true)
 
 Output : 
 
@@ -259,15 +259,11 @@ Ada berbagai macam cara yang dapat kita lakukan
 ### Bagaimana cara membaca file demi baris di bash Shell?
 - menggunakan perulangan while
 
-![App Screenshot](img/loop-file/loop-sh.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/LoopFile/SNo.1.png?raw=true)
 
 Output
 
-![App Screenshot](img/loop-file/loop-sh-output.png)
-
-Output diatas merupakan isi dari file `filename.txt` 
-
-![App Screenshot](img/loop-file/loop-txt.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/LoopFile/J1.png?raw=true)
 
 ## Bash - Comments
 
@@ -302,11 +298,11 @@ Untuk komentar sebaris, gunakan simbol `#` di awal komentar. Komentar satu baris
 
 Spasi kosong setelah `#` simbol tidak diperlukan. Berikut ini adalah contoh komentar satu baris dalam skrip shell.
 
-![App Screenshot](img/comment/comment-single.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Comments/SNo.1.png?raw=true)
 
 Output
 
-![App Screenshot](img/comment/comment-single-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Comments/J1.png?raw=true)
 
 ### Komentar multi-baris dalam skrip shell
 
@@ -316,7 +312,7 @@ Cara pertama untuk membuat komentar multi-baris adalah dengan memanfaatkan komen
 
 Syntax: 
 
-![App Screenshot](img/comment/comment-multi-1.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Comments/SNo.2.png?raw=true)
 
 Cara kedua untuk membuat komentar multi-baris adalah dengan mengapit beberapa baris di dalam (`:`) dan (`'`).
 
@@ -326,11 +322,11 @@ Sintaks ini melibatkan:
 - Ini diikuti oleh beberapa baris komentar.
 - Komentar diakhiri dengan `'`. Berikut sintaksnya:
 
-![App Screenshot](img/comment/comment-multi-2.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Comments/SNo.2.png?raw=true)
 
 Output:
 
-![App Screenshot](img/comment/comment-multi-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Comments/J2.png?raw=true)
 
 Hal ini berguna untuk memasukkan lebih banyak teks yang mencakup beberapa baris, juga melayani tujuan dokumentasi.
 
@@ -380,45 +376,46 @@ ${array_name[index]}
 
 Array dapat berisi angka Contoh ini berisi array angka dan loop for untuk dicetak
 
-![App Screenshot](img/array/numbers-loop-through.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/SNo1.png?raw=true)
+
 
 Output:
 
-![App Screenshot](img/array/numbers-loop-through-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/J1.png?raw=true)
 
 ### Deklarasi Array string dan Loop
 
 Array dapat berisi angka Contoh ini berisi array angka dan loop for untuk dicetak
 
-![App Screenshot](img/array/strings-loop-through.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/SNo2.png?raw=true)
 
 Output:
 
-![App Screenshot](img/array/strings-loop-through-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/J2.png?raw=true)
 
 ### Akses elemen pertama array
 
 Dalam elemen Array, indeks elemen Pertama adalah nol, dan array[0] mengembalikan elemen pertama
 
-![App Screenshot](img/array/first-element.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/SNo3.png?raw=true)
 
 Output:
 
-![App Screenshot](img/array/first-element-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/J3.png?raw=true)
 
 ### Dapatkan element terakhir dalam sebuah array
 
 Dalam skrip bash, Anda dapat menggunakan indeks=-1 untuk mendapatkan elemen array terakhir.
 
-![App Screenshot](img/array/last-element-1.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/SNo4.png?raw=true)
 
 Dengan versi bash 4.0 terbaru, Anda dapat menggunakan sintaks di bawah ini untuk membaca elemen terakhir.
 
-![App Screenshot](img/array/last-element-2.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/SNo4.png?raw=true)
 
 Output:
 
-![App Screenshot](img/array/last-element-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/J4.png?raw=true)
 
 ### Iterate atau Loop element array
 
@@ -426,39 +423,39 @@ For loop digunakan untuk mengulangi elemen.
 
 Berikut adalah contoh contoh loop array untuk mencetak semua elemen
 
-![App Screenshot](img/array/iterate-loop.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/SNo5.png?raw=true)
 
 Output:
 
-![App Screenshot](img/array/iterate-loop-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/J5.png?raw=true)
 
 Cara lain untuk mencetak indeks dan elemen array menggunakan for loop.
 
-![App Screenshot](img/array/iterate-loop-2.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/SNo6.png?raw=true)
 
 Output:
 
-![App Screenshot](img/array/iterate-loop-2-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/J6.png?raw=true)
 
 ### Cetak semua elemen array
 
 Gunakan [@] atau [*] untuk mencetak semua elemen array.
 
-![App Screenshot](img/array/print-all.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/SNo7.png?raw=true)
 
 Output:
 
-![App Screenshot](img/array/print-all-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/J7.png?raw=true)
 
 ### Hapus elemen dari array
 
 Anda dapat menghapus elemen dari array menggunakan `unset` indeks tertentu.
 
-![App Screenshot](img/array/remove-element.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/SNo8.png?raw=true)
 
 Output:
 
-![App Screenshot](img/array/remove-element-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/J8.png?raw=true)
 
 ### Menambahkan elemen ke array
 
@@ -470,11 +467,11 @@ array[index]=value
 
 Contoh penambahan elemen awal dan akhir serta tengah
 
-![App Screenshot](img/array/add-element.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/SNo9.png?raw=true)
 
 Output:
 
-![App Screenshot](img/array/add-element-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/J9.png?raw=true)
 
 ### Panjang sebuah array
 
@@ -482,11 +479,12 @@ Dalam hal ini, Temukan jumlah semua elemen dalam array.
 
 Script Shell menyediakan `#`
 
-![App Screenshot](img/array/length-of-array.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/SNo10.png?raw=true)
 
 Output:
 
-![App Screenshot](img/array/length-of-array-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Arrays/J10.png?raw=true)
+
 
 ### Array cheat sheet
 
@@ -588,11 +586,11 @@ Cara menulis skrip shell di bash
 - Tulis perintah dalam file
 - Simpan file sebagai `hello.sh`
 
-![App Screenshot](img/expansion/expansion.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Expansion/SNo1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/expansion/execute.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Expansion/J1.png?raw=true)
 
 ## Bash - Conditional Expression
 
@@ -612,11 +610,11 @@ Bash menyediakan operator logika pada FIle dan direktori untuk menguji ekspresi 
 
 Syntax:
 
-![App Screenshot](img/conditional-expression/code.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Conditional_Expression/SN01.png?raw=true)
 
 Output:
 
-![App Screenshot](img/conditional-expression/output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Conditional_Expression/J1.png?raw=true)
 
 conditional_expressions berisi opsi, dan jalur file, yang selalu mengembalikan nilai benar atau salah.
 
@@ -719,11 +717,11 @@ pattern1)
 
 Contohnya sebagai berikut:
 
-![App Screenshot](img/case-statements/code.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Case_statement/SNo1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/case-statements/output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Case_statement/J1.png?raw=true)
 
 ## Bash - Special Characters
 
@@ -733,11 +731,11 @@ Ini juga disebut spasi putih, berisi tab, spasi, kembali, baris baru. Ini member
 
 Syntax :
 
-![App Screenshot](img/special-characters/1.png)
+https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/SNo1.png?raw=true
 
 Output:
 
-![App Screenshot](img/special-characters/1-o.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/J1.png?raw=true)
 
 Contoh di atas, echo adalah perintah yang diikuti spasi, dan string berisi spasi untuk kata.
 
@@ -749,7 +747,7 @@ Simbol tanda dolar digunakan untuk berbagai jenis perluasan parameter perluasan,
 
 Menambahkan & di akhir perintah memungkinkan Anda menjalankan perintah di latar belakang.
 
-![App Screenshot](img/special-characters/2.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/SNo2.png?raw=true)
 
 **Single quotes**
 
@@ -757,21 +755,23 @@ Single quotes (') are used to define a string without a special meaning. It mean
 
 Syntax :
 
-![App Screenshot](img/special-characters/3.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/SNo3.png?raw=true)
 
 Output :
 
-![App Screenshot](img/special-characters/3-o.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/J3.png?raw=true)
 
 Jika kutipan tunggal berisi kutipan tunggal bersarang, Anda harus menghindarinya menggunakan ```.
 
 Syntax :
 
-![App Screenshot](img/special-characters/4.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/SNo4.png?raw=true)
+
 
 Output :
 
-![App Screenshot](img/special-characters/4-o.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/J4.png?raw=true)
+
 
 **Double qoutes**
 
@@ -783,11 +783,11 @@ jika string tidak ingin memperluas variabelnya, maka Anda dapat keluar dari \ se
 
 Syntax :
 
-![App Screenshot](img/special-characters/5.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/SNo5.png?raw=true)
 
 Output :
 
-![App Screenshot](img/special-characters/5-o.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/J5.png?raw=true)
 
 **Backslash Character( \ )**
 
@@ -795,11 +795,11 @@ Karakter garis miring terbalik digunakan untuk keluar dari karakter dalam string
 
 Syntax :
 
-![App Screenshot](img/special-characters/6.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/SNo6.png?raw=true)
 
 Output :
 
-![App Screenshot](img/special-characters/6-o.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/J6.png?raw=true)
 
 **Comment ( # )**
 
@@ -808,11 +808,11 @@ Itu diabaikan oleh penerjemah bash.
 
 Syntax :
 
-![App Screenshot](img/special-characters/7.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/SNo7.png?raw=true)
 
 Output :
 
-![App Screenshot](img/special-characters/7-o.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Special_character/J7.png?raw=true)
 
 
 ## Bash - if elif else
@@ -866,11 +866,11 @@ Dalam sintaks di atas:
 
 Contoh
 
-![App Screenshot](img/if-elif-else/if-code.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/if_else/Screenshot%202024-04-25%20112642.png?raw=true)
 
 Output:
 
-![App Screenshot](img/if-elif-else/if-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/if_else/Screenshot%202024-04-25%20112736.png?raw=true)
 
 ### If-else Conditional Statements
 
@@ -891,11 +891,11 @@ Dalam sintaks di atas:
 - Blok kode dalam `else` pernyataan dijalankan jika kondisinya adalah `false`.
 - Setiap pernyataan `if-else` harus diakhiri dengan `fi`.
 
-![App Screenshot](img/if-elif-else/if-else-code.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/if_else/Screenshot%202024-04-25%20112903.png?raw=true)
 
 Output:
 
-![App Screenshot](img/if-elif-else/if-else-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/if_else/Screenshot%202024-04-25%20113732.png?raw=true)
 
 Dalam contoh ini, jika usianya lebih dari 60 tahun, maka akan dihasilkan “Warga Negara Lanjut Usia”; jika tidak, akan ditampilkan “Bukan Warga Negara Lanjut Usia”.
 
@@ -920,11 +920,11 @@ fi
 
 Contoh:
 
-![App Screenshot](img/if-elif-else/if-elif-else-code.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/if_else/Screenshot%202024-04-25%20113841.png?raw=true)
 
 Output
 
-![App Screenshot](img/if-elif-else/if-elif-else-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/if_else/Screenshot%202024-04-25%20113910.png?raw=true)
 
 Dalam contoh ini, skrip memeriksa apakah usia lebih besar dari 60, kurang dari 14, atau tidak termasuk dalam kategori apa pun, dan menampilkan pesan yang sesuai.
 
@@ -958,11 +958,12 @@ done
 
 Contoh:
 
-![App Screenshot](img/loops/for-loop.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Loops/Screenshot%202024-04-25%20114637.png?raw=true)
 
 Output:
 
-![App Screenshot](img/loops/for-loop-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Loops/Screenshot%202024-04-25%20114723.png?raw=true)
+
 
 ### for loop index
 
@@ -976,11 +977,12 @@ done
 
 Contoh
 
-![App Screenshot](img/loops/for-index.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Loops/Screenshot%202024-04-25%20120449.png?raw=true)
 
 Output:
 
-![App Screenshot](img/loops/for-index-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Loops/Screenshot%202024-04-25%20120613.png?raw=true)
+
 
 Ini mencetak angka 0 sampai 5. 
 
@@ -998,11 +1000,13 @@ done
 
 Contoh:
 
-![App Screenshot](img/loops/while-loop.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Loops/Screenshot%202024-04-25%20120734.png?raw=true)
+
 
 Output:
 
-![App Screenshot](img/loops/while-loop-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Loops/Screenshot%202024-04-25%20120804.png?raw=true)
+
 
 While loop diatas mencetak bilangan 0-100, program berjalan selama kondisi `[[ i -lt 100 ]]` benar. Variabel `i` akan terus mengincrement 1 dan mencetak nilainya. Jika kondisi salah (mencapai 100), maka program akan selesai.
 
@@ -1022,11 +1026,11 @@ done
 
 Contoh
 
-![App Screenshot](img/loops/until-loop.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Loops/Screenshot%202024-04-25%20120928.png?raw=true)
 
 Output:
 
-![App Screenshot](img/loops/until-loop-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Loops/Screenshot%202024-04-25%20121011.png?raw=true)
 
 Program ini berjalan sama dengan program yang ada pada *while loop* hanya saja ini menggunakan *until loop*. Variable `i` akan mengincrement 1 sampai 99 dan mencetak nilainya. Program akan berjalan selama kondisi `[[ i -eq 100 ]]` benar. Jika kondisi salah (mencapai 100) maka program akan berhenti.
 
@@ -1041,11 +1045,12 @@ Di bash, Expressions dibuat menggunakan `(())` tanda kurung dengan operan dan op
 
 Contoh 
 
-![App Screenshot](img/append-string/math-expression.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string1/Screenshot%202024-04-25%20121545.png?raw=true)
 
 Output:
 
-![App Screenshot](img/append-string/math-expression-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string1/Screenshot%202024-04-25%20121644.png?raw=true)
+
 
 Arthematic expressions dibuat menggunakan operator dibawah ini 
 - Operator Aritmatik
@@ -1057,11 +1062,11 @@ Operator perbandingan digunakan untuk mengecek satu sama lain dengan membandingk
 
 Contoh:
 
-![App Screenshot](img/append-string/math-comparison.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string1/Screenshot%202024-04-25%20121929.png?raw=true)
 
 Output:
 
-![App Screenshot](img/append-string/math-comparison-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string1/Screenshot%202024-04-25%20122029.png?raw=true)
 
 ### Bash Arithmetic Expansion
 
@@ -1073,11 +1078,11 @@ $((expression))
 
 Contoh menghitung nilai rata-rata menggunakan expansion. Setelah perhitungan dilakukan, output diganti dengan ekspresi.
 
-![App Screenshot](img/append-string/athematic-expansion.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string1/Screenshot%202024-04-25%20122224.png?raw=true)
 
 Output
 
-![App Screenshot](img/append-string/athematic-expansion-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string1/Screenshot%202024-04-25%20122741.png?raw=true)
 
 ### Kapan Menggunakan Expression dan Expansion Aritmatik
 
@@ -1103,15 +1108,15 @@ Fungsi berisi nama fungsi yang diapit `{}`.
 
 Ini dapat dideklarasikan dengan 2 cara
 
-![App Screenshot](img/functions/declare-1.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Functions/PC_1.png?raw=true)
 
-![App Screenshot](img/functions/declare-2.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Functions/PC_1.png?raw=true)
 
 dan keduanya memiliki output yang sama yaitu
 
-![App Screenshot](img/functions/declare-1-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Functions/H_1.png?raw=true)
 
-![App Screenshot](img/functions/declare-2-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Functions/H_1.png?raw=true)
 
 ### Cara meneruskan parameter ke suatu fungsi
 
@@ -1122,11 +1127,11 @@ Parameter dapat diakses menggunakan $1 $2 $3.. $n
 
 Contoh
 
-![App Screenshot](img/functions/pass-parameter.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Functions/PC_2.png?raw=true)
 
 Output
 
-![App Screenshot](img/functions/pass-parameter-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Functions/H_2.png?raw=true)
 
 ## Bash - Append String
 
@@ -1134,27 +1139,28 @@ Output
 
 Mulailah dengan mendeklarasikan dua variabel string dalam skrip Bash, yang dapat dicetak ke konsol menggunakan echo dengan mengapit variabel dalam tanda kutip ganda.
 
-![App Screenshot](img/append-string-2/simple-variable-append-1.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/append-string-2/simple-variable-append-1-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/H1.png?raw=true)
 
 Juga dapat menambahkan tanpa tanda kutip ganda
 
-![App Screenshot](img/append-string-2/simple-variable-append-2.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/P2.png?raw=true)
+
 
 Output:
 
-![App Screenshot](img/append-string-2/simple-variable-append-2-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/H2.png?raw=true)
 
 Contoh lain melibatkan penggabungan string ke variabel yang sama dan mencetaknya ke konsol:
 
-![App Screenshot](img/append-string-2/concatenating.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/P3.png?raw=true)
 
 Output:
 
-![App Screenshot](img/append-string-2/concatenating-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/H3.png?raw=true)
 
 Pendekatan ini memiliki pro dan kontra
 
@@ -1173,11 +1179,11 @@ Misalnya.
 
 Berikut adalah contoh kode
 
-![App Screenshot](img/append-string-2/shorthand-arithmetic.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/P4.png?raw=true)
 
 Output:
 
-![App Screenshot](img/append-string-2/shorthand-arithmetic-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/H4.png?raw=true)
 
 Catatan:
 
@@ -1188,11 +1194,11 @@ Catatan:
 
 `printf` digunakan untuk memformat string dengan berbagai opsi pemformatan yang kompleks. Kita dapat menggunakan `printf` perintah untuk menggabungkan string. Formatnya adalah `%s%s`, menambahkan dua variabel string.
 
-![App Screenshot](img/append-string-2/printf.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/P5.png?raw=true)
 
 Output:
 
-![App Screenshot](img/append-string-2/printf-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/H5.png?raw=true)
 
 Catatan: Tidak mudah untuk memahami printf dengan opsi yang diformat
 
@@ -1215,11 +1221,12 @@ string adalah string masukan
 
 Contoh:
 
-![App Screenshot](img/append-string-2/here-string.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/P6.png?raw=true)
+
 
 Output:
 
-![App Screenshot](img/append-string-2/here-string-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Append_string2/H6.png?raw=true)
 
 Dalam contoh ini, string kedua ditambahkan ke string pertama menggunakan operator string di sini.
 
@@ -1324,11 +1331,11 @@ Berikut ini adalah operator Perbandingan.
 
 menggunakan operator `-eq` dalam `if fi` pernyataan kondisional
 
-![App Screenshot](img/operators/equal.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Operators/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/operators/equal-failed.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Operators/H1.png?raw=true)
 
 Output diatas failed dikarenakan nilai dari variable first dan second memang tidak sama atau tidak equal.
 
@@ -1344,11 +1351,11 @@ Output diatas failed dikarenakan nilai dari variable first dan second memang tid
 
 Berikut Contohnya:
 
-![App Screenshot](img/operators/not-equal.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Operators/P2.png?raw=true)
 
 Output
 
-![App Screenshot](img/operators/not-equal-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Operators/H2.png?raw=true)
 
 ### Other Operators
 
@@ -1362,21 +1369,13 @@ Output
 
 ### Cara memeriksa apakah 2 angka sama atau tidak di bash
 
-Kode gagal:
-
-![App Screenshot](img/number-comparison/comparison-1.png)
-
 Kode sukses:
 
-![App Screenshot](img/number-comparison/comparison-2.png)
-
-Output gagal:
-
-![App Screenshot](img/number-comparison/comparison-1-failed.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Number_Comparison/P1.png?raw=true)
 
 Output sukses:
 
-![App Screenshot](img/number-comparison/comparison-2-success.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Number_Comparison/H1.png?raw=true)
 
 Beberapa skrip shell tidak mendukung (()), gunakan [[]] dengan operator Perbandingan
 
@@ -1402,25 +1401,13 @@ Berikut ini adalah operator Perbandingan.
 
 menggunakan operator `-eq` dalam `if fi` pernyataan kondisional
 
-Kode gagal:
-
-![App Screenshot](img/number-comparison/eq-1.png)
-
 Kode sukses:
 
-![App Screenshot](img/number-comparison/eq-2.png)
-
-Output gagal:
-
-![App Screenshot](img/number-comparison/eq-1-failed.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Number_Comparison/P2.png?raw=true)
 
 Output Sukses:
 
-![App Screenshot](img/number-comparison/eq-2-success.png)
-
-Dapat juga dilakukan dengan operator ternary
-
-![App Screenshot](img/number-comparison/ternary.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Number_Comparison/H2.png?raw=true)
 
 ## Bash - Check Directory
 
@@ -1436,11 +1423,11 @@ Ekspresi kondisional menggunakan `-d` opsi untuk memeriksa apakah direktori ters
 
 Ini sebuah contoh
 
-![App Screenshot](img/check-directory/check-directory-1.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/check-directory/check-directory-1-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/H1.png?raw=true)
 
 Harap dicatat bahwa tambahkan spasi setelah `[` dan sebelum `-d`.
 
@@ -1453,11 +1440,12 @@ Dalam contoh ini, menggunakan blok kondisional if-else.
 
 Ini kodenya
 
-![App Screenshot](img/check-directory/check-mkdir.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/P2.png?raw=true)
 
 Output
 
-![App Screenshot](img/check-directory/check-mkdir-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/H2.png?raw=true)
+
 
 **Periksa keberadaan direktori menggunakan sintaks ternary**
 
@@ -1465,21 +1453,21 @@ Alternatifnya, ekspresi kondisional ternary digunakan sebagai pengganti ekspresi
 
 Berikut adalah contoh ekspresi kondisional
 
-![App Screenshot](img/check-directory/ternary-syntax.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/P3.png?raw=true)
  
 Output:
 
-![App Screenshot](img/check-directory/ternary-syntax-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/H3.png?raw=true)
 
 **Periksa apakah ada banyak direktori** Terkadang, Kami ingin memeriksa apakah ada banyak direktori.
 
 Kita harus menggunakan pernyataan kondisional if dengan operator logika AND(&&).
 
-![App Screenshot](img/check-directory/multiple.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/P4.png?raw=true)
 
 Output:
 
-![App Screenshot](img/check-directory/multiple-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/H4.png?raw=true)
 
 **Periksa apakah direktori ada dan dapat ditulis serta dieksekusi**
 
@@ -1489,21 +1477,21 @@ Dalam contoh ini, Kode memeriksa hal-hal di bawah ini
 - jika ada, Folder tersebut memiliki izin untuk menulis dan dieksekusi.
 - Terakhir, Cetak pesan string
 
-![App Screenshot](img/check-directory/editable.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/P5.png?raw=true)
 
 Output:
 
-![App Screenshot](img/check-directory/editable-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/H5.png?raw=true)
 
 **Periksa file atau direktori yang ada**
 
 Terkadang, kami ingin memeriksa apakah file atau direktori tersebut ada. Opsi -e memeriksa file atau direktori untuk jalur yang diberikan ada atau tidak.
 
-![App Screenshot](img/check-directory/check-e.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/P6.png?raw=true)
 
 Output:
 
-![App Screenshot](img/check-directory/check-e-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Check_Directory/H6.png?raw=true)
 
 ## Bash - File Name
 
@@ -1517,11 +1505,11 @@ nama dasar digunakan untuk menghapus direktori dan mengembalikan nama file untuk
 
 Sebagai contoh menggunakan kode yang sudah dimodifikasi sebagai berikut:
 
-![App Screenshot](img/file-name/filename-extension.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/File_Name/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/file-name/filename-extension-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/File_Name/H1.png?raw=true)
 
 ### Ekstrak nama file tanpa ekstensi
 
@@ -1533,11 +1521,11 @@ Awalnya, basename perintah ini digunakan untuk menghilangkan direktori dan mengh
 
 Ekspresi ini secara efektif menghapus ekstensi dari nama file.
 
-![App Screenshot](img/file-name/file-no-extension.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/File_Name/P2.png?raw=true)
 
 Output:
 
-![App Screenshot](img/file-name/file-no-extension-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/File_Name/H2.png?raw=true)
 
 ### Ekstrak ekstensi untuk jalur file
 
@@ -1547,11 +1535,11 @@ Misalnya, pertimbangkan jalur /home/john/run.sh yang akan menjadi ekstensi yang 
 
 Awalnya, basename perintah ini digunakan untuk menghapus jalur direktori dan mengembalikan nama file untuk jalur yang ditentukan, dan nama file ini kemudian digunakan bersama dengan sintaks ekspresi untuk mengembalikan ekstensi saja.
 
-![App Screenshot](img/file-name/extract-extension.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/File_Name/P3.png?raw=true)
 
 Output:
 
-![App Screenshot](img/file-name/extract-extension-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/File_Name/H3.png?raw=true)
 
 Berikut adalah contoh komprehensif yang menunjukkan cara mendapatkan nama file dengan atau tanpa ekstensi file. Setelah menjalankan skrip di bawah ini, skrip tersebut akan dicetak
 
@@ -1559,11 +1547,11 @@ Berikut adalah contoh komprehensif yang menunjukkan cara mendapatkan nama file d
 - hanya nama file tanpa ekstensi,
 - dan ekstensinya saja.
 
-![App Screenshot](img/file-name/conclusion.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/File_Name/P4.png?raw=true)
 
 Output
 
-![App Screenshot](img/file-name/conclusion-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/File_Name/H4.png?raw=true)
 
 ### Kesimpulan
 
@@ -1587,11 +1575,11 @@ Perintah tersebut awk, sebuah utilitas Linux yang kompatibel dengan semua distri
 
 Input diberikan menggunakan simbol pipa (|), dan contoh di bawah ini menunjukkan pemisahan string yang mengandung titik dua ( :)
 
-![App Screenshot](img/split-string/split-awk.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Split_String/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/split-string/split-awk-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Split_String/H1.png?raw=true)
 
 ### dibagi menggunakan variabel IFS
 
@@ -1599,21 +1587,21 @@ Di sini, string masukan terdiri dari elemen yang dipisahkan oleh hyphens. Variab
 
 Setiap elemen dicetak setelah tanda hubung dihilangkan.
 
-![App Screenshot](img/split-string/split-ifs.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Split_String/P2.png?raw=true)
 
 Output:
 
-![App Screenshot](img/split-string/split-ifs-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Split_String/H2.png?raw=true)
 
 ### Gunakan ekspansi Parameter dan loop
 
 Perluasan parameter digunakan untuk mengubah nilai variabel berdasarkan opsi yang ditentukan. Dalam hal ini, variabel string diubah menjadi array. Array kemudian diiterasi menggunakan sintaks for loop, mencetak setiap elemen ke konsol:
 
-![App Screenshot](img/split-string/split-loop.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Split_String/P3.png?raw=true)
 
 Output:
 
-![App Screenshot](img/split-string/split-loop-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Split_String/H3.png?raw=true)
 
 
 Berbagai cara untuk menangani manipulasi string, memungkinkan Anda memilih metode yang sesuai dengan kebutuhan Anda.
@@ -1630,31 +1618,31 @@ Metode pertama melibatkan penggunaan `${#variable}` sintaksis untuk mendapatkan 
 
 Dalam hal ini, jumlah karakter dalam variabel string.
 
-![App Screenshot](img/string-length/count-1.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/String_Length/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/string-length/count-1-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/String_Length/H1.png?raw=true)
 
 Menggunakan Perintah wc -m
 
 Metode kedua melibatkan penggunaan perintah wc -m, baik secara langsung dengan string atau melalui variabel.
 
-![App Screenshot](img/string-length/count-m.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/String_Length/P2.png?raw=true)
 
 Dalam contoh ini, `echo -n "string"` digunakan untuk mencetak string tanpa baris baru ( `-n option`). Operator `|` pipa mengarahkan output dari perintah sisi kiri ke perintah sisi kanan, dan `wc -m` menghitung jumlah karakter dalam sebuah string.
 
 Output:
 
-![App Screenshot](img/string-length/count-m-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/String_Length/H2.png?raw=true)
 
 Menggunakan `expr` Perintah Metode lain melibatkan penggunaan `expr` perintah untuk mencari panjang string.
 
-![App Screenshot](img/string-length/count-expr.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/String_Length/P3.png?raw=true)
 
 Output:
 
-![App Screenshot](img/string-length/count-expr-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/String_Length/H3.png?raw=true)
 
 Di sini, `${}` mewakili substitusi ekspresi, mensubstitusi nilai ekspresi ke dalam string. `expr` mengeksekusi `expressions`, dan `length` merupakan argumen yang diteruskan `expr` untuk menemukan panjang string.
 
@@ -1662,11 +1650,11 @@ Di sini, `${}` mewakili substitusi ekspresi, mensubstitusi nilai ekspresi ke dal
 
 - menggunakan perintah awk `Awk` menyediakan cara lain untuk menghitung panjang string menggunakan ekspresi.
 
-![App Screenshot](img/string-length/count-awk.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/String_Length/P4.png?raw=true)
 
 Output:
 
-![App Screenshot](img/string-length/count-awk-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/String_Length/H4.png?raw=true)
 
 Dalam hal ini, `echo -n "$variable"` keluaran string tanpa baris baru, dan keluaran disalurkan `awk` menggunakan simbol pipa( `|`). Perintah `awk '{print length}'` menghitung dan mencetak panjang baris input.
 
@@ -1685,7 +1673,7 @@ File .bashrc adalah file skrip bash yang dijalankan dalam kasus berikut
 
 File ini disembunyikan secara default karena file dimulai dengan . disembunyikan.
 
-![App Screenshot](img/bachrc/bashrc.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Bashrc/H1.png?raw=true)
 
 File .bashrc adalah skrip yang dijalankan saat pengguna login. File ini terletak di direktori home pengguna. Berisi environment variables dan user preferences untuk dikonfigurasi di dalam file ini
 
@@ -1706,7 +1694,7 @@ jika Anda membuat perubahan apa pun pada file .bashrc, Perubahan tidak akan lang
 
 Bagaimana cara memuat ulang konfigurasi .bashrc tanpa login lagi? Jalankan perintah berikut di command prompt.
 
-![App Screenshot](img/bachrc/reload.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Bashrc/H1.png?raw=true)
 
 ## Bash - Ternary Operator
 
@@ -1724,29 +1712,30 @@ Sintaksnya mirip dengan ekspresi kondisional if dan else. jika ekspresi benar, n
 
 Cara pertama, gunakan if-else dengan expression syntax.
 
-![App Screenshot](img/ternary-operator/firstway.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Ternary_Operator/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/ternary-operator/firstway-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Ternary_Operator/H1.png?raw=true)
 
 Cara kedua, gunakan arithmetic expression menggunakan && dan || Syntaxnya adalah
 
-![App Screenshot](img/ternary-operator/secondway.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Ternary_Operator/P2.png?raw=true)
 
 Output:
 
-![App Screenshot](img/ternary-operator/secondway-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Ternary_Operator/H2.png?raw=true)
+
 
 Ada cara lain untuk menetapkan variabel, bukan ekspresi.
 
 dengan menggunakan mari kita dapat menetapkan variabel berdasarkan hasil ekspresi kondisi
 
-![App Screenshot](img/ternary-operator/let.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Ternary_Operator/P3.png?raw=true)
 
 Output
 
-![App Screenshot](img/ternary-operator/let-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Ternary_Operator/H3.png?raw=true)
 
 ## Bash - Lowercase
 
@@ -1770,19 +1759,19 @@ tr input_format output_format
 
 Contoh:
 
-![App Screenshot](img/Lowercase/lowercase-1.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/Lowercase/lowercase-1-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/H1.png?raw=true)
 
 bisa juga menggunakan:
 
-![App Screenshot](img/Lowercase/lowercase-2.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/P2.png?raw=true)
 
 Output:
 
-![App Screenshot](img/Lowercase/lowercase-2-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/H2.png?raw=true)
 
 Catatan: `tr` berfungsi dengan `ASCII` dan tidak mendukung UTF karakter.
 
@@ -1792,11 +1781,11 @@ Untuk mengubah string menjadi huruf kecil menggunakan perintah `awk`, `tolower` 
 
 Hasilnya kemudian diteruskan ke perintah echo menggunakan operator pipa:
 
-![App Screenshot](img/Lowercase/lowercase-awk.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/P3.png?raw=true)
 
 Output:
 
-![App Screenshot](img/Lowercase/lowercase-awk-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/H3.png?raw=true)
 
 Metode ini paling baik untuk karakter ASCII dan UTF.
 
@@ -1804,11 +1793,12 @@ Metode ini paling baik untuk karakter ASCII dan UTF.
 
 lc adalah alias untuk huruf kecil.
 
-![App Screenshot](img/Lowercase/lowercase-perl.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/P4.png?raw=true)
 
 Output:
 
-![App Screenshot](img/Lowercase/lowercase-perl-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/H4.png?raw=true)
+
 
 - **gunakan ekspansi Parameter Bash 4.0 memperkenalkan utilitas manipulasi string bawaan. Untuk mengonversi string menjadi huruf kecil, cukup tambahkan dua `commas` ke string. Ini juga disebut sintaks perluasan parameter.**
 
@@ -1816,19 +1806,19 @@ Sintaksnya adalah `${variable[options]}`.
 
 Contoh:
 
-![App Screenshot](img/Lowercase/lowercase-comma.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/P5.png?raw=true)
 
 Output:
 
-![App Screenshot](img/Lowercase/lowercase-comma-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/H5.png?raw=true)
 
 Atau
 
-![App Screenshot](img/Lowercase/lowercase-comma-2.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/P6.png?raw=true)
 
 Output:
 
-![App Screenshot](img/Lowercase/lowercase-comma-2-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Lowercase/H6.png?raw=true)
 
 Di sini, `${msg,,}` gunakan `,,` opsi untuk mengonversi variabel menjadi huruf kecil.
 
@@ -1859,19 +1849,19 @@ tr input_format output_format
 
 Contoh: 
 
-![App Screenshot](img/uppercase/uppercase-1.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/uppercase/uppercase-1-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/H1.png?raw=true)
 
 Alternatif lain:
 
-![App Screenshot](img/uppercase/uppercase-2.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/P2.png?raw=true)
 
 Output:
 
-![App Screenshot](img/uppercase/uppercase-2-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/H2.png?raw=true)
 
 Catatan: `tr` berfungsi dengan `ASCII` dan tidak mendukung UTF karakter.
 
@@ -1879,41 +1869,41 @@ Catatan: `tr` berfungsi dengan `ASCII` dan tidak mendukung UTF karakter.
 
 Untuk mengubah string menjadi huruf besar menggunakan perintah `awk`, `toupper` fungsinya digabungkan dengan awk. Hasilnya kemudian diteruskan ke perintah echo menggunakan operator pipa:
 
-![App Screenshot](img/uppercase/uppercase-awk.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/P3.png?raw=true)
 
 Output:
 
-![App Screenshot](img/uppercase/uppercase-awk-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/H3.png?raw=true)
 
 Yang terbaik adalah bekerja dengan ASCII dan UTF karakter.
 
 = **dalam versi bash 4.0 bash 4.0menyediakan utilitas manipulasi string bawaan. Menambahkan dua tanda sirkumfleks (^) ke sebuah string akan membuat string menjadi string huruf besar.**
 
-![App Screenshot](img/uppercase/uppercase-pangkat.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/P4.png?raw=true)
 
 Output:
 
-![App Screenshot](img/uppercase/uppercase-pangkat-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/H4.png?raw=true)
 
 - **menggunakan Perl dalam skrip bash**
 
 `print uc` perintah di Perl mengubah string menjadi huruf besar
 
-![App Screenshot](img/uppercase/uppercase-perl.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/P5.png?raw=true)
 
 Output:
 
-![App Screenshot](img/uppercase/uppercase-perl-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/H5.png?raw=true)
 
 - **Gunakan sintaks perluasan parameter Bash 4.0 menyediakan utilitas manipulasi string bawaan. Menambahkan dua tanda sirkumfleks (^) ke sebuah string menjadikannya string huruf besar, juga disebut sintaks perluasan parameter.**
 
 Sintaksnya adalah `${variable[options]}`
 
-![App Screenshot](img/uppercase/last.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/P6.png?raw=true)
 
 Output:
 
-![App Screenshot](img/uppercase/last-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Uppercase/H6.png?raw=true)
 
 Sintaks perluasan parameter mengubah string menjadi huruf besar. `${message^^}` berisi `^^` opsi untuk mengubah string pesan variabel menjadi huruf besar.
 
@@ -1927,31 +1917,31 @@ Fitur ini tersedia di Bash versi 4.0 ke atas.
 - Gunakan pernyataan if untuk membandingkan string dengan substring yang diinginkan menggunakan operator kesetaraan ( ==) dan wildcard (*).
 - Terakhir, cetak string jika substring ditemukan.
 
-![App Screenshot](img/substring/comparison.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Substring/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/substring/comparison-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Substring/H1.png?raw=true)
 
 ### Gunakan Ekspresi Reguler untuk Menemukan Substring
 
 Operator `=~` memfasilitasi pencarian substring dalam string tertentu, digunakan dalam blok if.
 
-![App Screenshot](img/substring/regular.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Substring/P2.png?raw=true)
 
 Output:
 
-![App Screenshot](img/substring/regular-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Substring/H2.png?raw=true)
 
 ### Gunakan perintah grep
 
 Perintah grep digunakan untuk mencari string tertentu, disalurkan ke string utama untuk perbandingan.
 
-![App Screenshot](img/substring/grep.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Substring/P3.png?raw=true)
 
 Output:
 
-![App Screenshot](img/substring/grep-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Substring/H3.png?raw=true)
 
 Metode ini menawarkan pendekatan berbeda untuk memeriksa apakah suatu string berisi substring tertentu, sehingga memberikan fleksibilitas untuk kasus penggunaan yang berbeda.
 
@@ -1988,19 +1978,20 @@ Dalam contoh di bawah ini,
 - `variable1` dideklarasikan tetapi kosong
 - `variable2` tidak dideklarasikan dan tidak disetel.
 
-![App Screenshot](img/variable-set/variable-set-1.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/variable-set/variable-set-1-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/H1.png?raw=true)
 
 Cara lain untuk memeriksa suatu variabel adalah dengan menyetel menggunakan -v opsi
 
-![App Screenshot](img/variable-set/variable-v.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/P2.png?raw=true)
+
 
 Output:
 
-![App Screenshot](img/variable-set/variable-v-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/H2.png?raw=true)
 
 ### Bagaimana cara memeriksa apakah variabel tidak disetel di skrip bash?
 
@@ -2013,29 +2004,30 @@ Dalam contoh di bawah ini,
 - variable1 dideklarasikan tetapi kosong
 - variable2 tidak dideklarasikan dan tidak disetel.
 
-![App Screenshot](img/variable-set/variable-unset.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/P3.png?raw=true)
 
 Output:
 
-![App Screenshot](img/variable-set/variable-unset-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/H3.png?raw=true)
 
 ### Cara mengecek variabel kosong atau tidak kosong
 
 Tutorial ini memeriksa pemeriksaan variabel dibandingkan dengan spasi dan membungkus ekspresi ini di dalam [[]].
 
-![App Screenshot](img/variable-set/var-empty-1.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/P4.png?raw=true)
 
 Output:
 
-![App Screenshot](img/variable-set/var-empty-1-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/H4.png?raw=true)
 
 Hal yang sama juga dapat ditulis menggunakan variabel dalam tanda kutip ganda yang dibungkus dalam tanda kurung tunggal [].
 
-![App Screenshot](img/variable-set/var-empty-2.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/P5.png?raw=true)
 
 Output:
 
-![App Screenshot](img/variable-set/var-empty-2-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/H5.png?raw=true)
+
 
 Mari kita periksa juga untuk tidak mengosongkan menggunakan ! operator.
 
@@ -2043,27 +2035,28 @@ Berikut adalah kode untuk `example checks if a variable is non-empty`.
 
 SATU ARAH,
 
-![App Screenshot](img/variable-set/var-not-empty.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/P6.png?raw=true)
 
 Output:
 
-![App Screenshot](img/variable-set/var-not-empty-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/H6.png?raw=true)
+
 
 Cara lain:
 
-![App Screenshot](img/variable-set/var-not-empty-2.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/P7.png?raw=true)
 
 Output
 
-![App Screenshot](img/variable-set/var-not-empty-2-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/H7.png?raw=true)
 
 Opsi penggunaan -z lainnya untuk memeriksa variabel disetel dan kosong atau tidak kosong menggunakan kode di bawah ini
 
-![App Screenshot](img/variable-set/var-empty-z.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/P8.png?raw=true)
 
 Output:
 
-![App Screenshot](img/variable-set/var-empty-z-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Variable_Set/H8.png?raw=true)
 
 ## Bash - Iterate Nos
 
@@ -2077,27 +2070,29 @@ Terkadang, Kami ingin membuat nama file dengan nama yang berisi angka yang dihas
 
 **menggunakan alat seq seq menghasilkan urutan angka.**
 
-![App Screenshot](img/iterate-nos/seq-tool.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Iterate_Nos/P1.png?raw=true)
 
 Output:
 
-![App Screenshot](img/iterate-nos/seq-tool-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Iterate_Nos/H1.png?raw=true)
 
 **menggunakan perulangan for**
 
-![App Screenshot](img/iterate-nos/for-loop.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Iterate_Nos/P2.png?raw=true)
 
 Output:
 
-![App Screenshot](img/iterate-nos/for-loop-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Iterate_Nos/H2.png?raw=true)
+
 
 **while loop**
 
-![App Screenshot](img/iterate-nos/while-loop.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Iterate_Nos/P3.png?raw=true)
+
 
 Output:
 
-![App Screenshot](img/iterate-nos/while-loop-output.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week8/img/Iterate_Nos/H3.png?raw=true)
 
 ### Kesimpulan
 
