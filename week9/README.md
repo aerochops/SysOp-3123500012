@@ -83,7 +83,7 @@
       mutex=signal(mutex);
     }
 #### Output: 
-![alt text](media/semaphore.out.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week9/media/H_semaphore.png?raw=true)
 
 #### Analisa: 
 Pertimbangkan seorang produsen dan seorang konsumen yang berbagi buffer bersama. Produsen menghasilkan item dan menyimpannya di dalam buffer. Konsumen mengonsumsi item dari buffer. Jika buffer penuh, produsen harus menunggu. Jika buffer kosong, konsumen harus menunggu.
@@ -181,7 +181,7 @@ Implementasi masalah produsen-konsumen ini memiliki beberapa keterbatasan. Perta
 
 
 #### Output: 
-![alt text](media/wake.out.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week9/media/H_wake-sleep-thread.png?raw=true)
 
 #### Analisa: 
 Penjelasan Kode: Masalah Produsen-Konsumen dengan Pthreads
