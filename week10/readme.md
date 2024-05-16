@@ -28,9 +28,10 @@
         Bekerja Secara Bersamaan: Jika ada banyak pelanggan, memiliki beberapa pelayan (threads) memungkinkan restoran untuk melayani lebih banyak pelanggan secara lebih efisien. Dalam pemrograman, threads memungkinkan program untuk menangani banyak tugas secara bersamaan, seperti membaca data dari disk sambil memproses data lain di memori.<br><br>
 
     - Koordinasi dan Sinkronisasi:
-        Koordinasi Tugas: Meskipun setiap pelayan bekerja secara mandiri, mereka harus berkoordinasi untuk memastikan pelayanan berjalan lancar dan tidak ada yang tertinggal. Demikian pula, threads dalam sebuah proses perlu disinkronisasi untuk menghindari konflik dan memastikan integritas data.
+        Koordinasi Tugas: Meskipun setiap pelayan bekerja secara mandiri, mereka harus berkoordinasi untuk memastikan pelayanan berjalan lancar dan tidak ada yang tertinggal. Demikian pula, threads dalam sebuah proses perlu disinkronisasi untuk menghindari konflik dan memastikan integritas data.<br><br>
+        ![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week10/Media/Screenshot%202024-05-16%20084636.png?raw=true)
 
-        
+
 
         #### Manfaat Threads
 
@@ -59,5 +60,22 @@
         Banyak pengenal sistem operasi, sumber daya, status, atau keterbatasan ditentukan pada tingkat proses dan, dengan demikian, dibagikan oleh semua thread dalam proses. Misalnya, ID pengguna dan grup serta izin terkait ditangani pada tingkat proses. Program yang perlu menetapkan ID pengguna berbeda untuk entitas pemrogramannya perlu menggunakan beberapa proses, bukan proses multithreaded tunggal. Contoh lainnya termasuk atribut sistem file, seperti direktori kerja saat ini, dan status serta jumlah maksimum file terbuka. Program multithreaded mungkin tidak sesuai jika atribut ini lebih baik ditangani secara independen. Misalnya, program multi-proses dapat membiarkan setiap proses membuka sejumlah besar file tanpa gangguan dari proses lain.<br><br>
 
 
-- ## Apa itu threads
+- ## Multicore Programming
+    Menurut MathWorks dalam artikelnya, "Concepts in Multicore Programming." Sistem prosesor multicore adalah prosesor tunggal dengan beberapa inti eksekusi dalam satu chip. Sebaliknya, sistem multiprosesor memiliki beberapa prosesor pada motherboard atau chip. Sistem multiprosesor dapat mencakup Field-Programmable Gate Array (FPGA). FPGA adalah sirkuit terintegrasi yang berisi susunan blok logika yang dapat diprogram dan hierarki interkoneksi yang dapat dikonfigurasi ulang. Node pemrosesan memproses data input untuk menghasilkan output. Ini bisa berupa prosesor dalam sistem multicore atau multiprosesor, atau FPGA.
+
+    - ### Jenis-jenis Paralelisme
+        Konsep pemrograman multicore adalah memiliki beberapa tugas sistem yang dijalankan secara paralel. Jenis paralelisme meliputi:
+
+            > Paralelisme data(Data Parallelism)
+
+            > Paralelisme tugas(Task parallelism)
+
+            > Pipelining(Pipelining)
+
+        - ### Paralelisme data(Data Parallelism)
+            Paralelisme data melibatkan pemrosesan beberapa bagian data secara independen secara paralel. Prosesor melakukan operasi yang sama pada setiap bagian data. Anda mencapai paralelisme dengan memasukkan data secara paralel.
+
+            Gambar menunjukkan diagram waktu untuk paralelisme ini. Masukan dibagi menjadi empat bagian, A, B, C, dan D. Operasi yang sama F() diterapkan pada setiap bagian ini dan keluarannya adalah OA, OB, OC, dan OD secara berurutan. Keempat tugas tersebut identik, dan berjalan secara paralel.
+            
+
         
