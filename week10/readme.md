@@ -191,14 +191,90 @@
 
             **Keterbatasan pada Sistem Multiprosesor**: Model many-to-one tidak efisien pada sistem multiprosesor karena hanya menggunakan satu thread kernel. Pada sistem multiprosesor, idealnya, thread-thread pengguna dapat didistribusikan di seluruh prosesor untuk meningkatkan kinerja, tetapi model ini tidak memungkinkan hal itu.
 
-            Karena kelemahan-kelemahan ini, model many-to-one seringkali digantikan oleh model-model multithreading lainnya seperti one-to-one (satu thread pengguna untuk satu thread kernel) dan many-to-many (banyak thread pengguna untuk banyak thread kernel) yang menawarkan lebih banyak fleksibilitas dan kinerja yang lebih baik, terutama dalam lingkungan yang memerlukan skalabilitas dan responsifitas yang tinggi.
+            Karena kelemahan-kelemahan ini, model many-to-one seringkali digantikan oleh model-model multithreading lainnya seperti one-to-one (satu thread pengguna untuk satu thread kernel) dan many-to-many (banyak thread pengguna untuk banyak thread kernel) yang menawarkan lebih banyak fleksibilitas dan kinerja yang lebih baik, terutama dalam lingkungan yang memerlukan skalabilitas dan responsifitas yang tinggi.<br><br>
 
+            ![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week10/Media/Screenshot%202024-05-16%20101734.png?raw=true)<br><br>
 
+            #### Analogi<hr>
+            Dalam konteks multithreading, model Many-to-One mengacu pada skenario di mana banyak thread atau tugas berbagi satu proses tunggal atau satu thread yang menangani semua permintaan. Analogi yang mungkin adalah sebagai berikut:
 
+            Bayangkan sebuah perusahaan yang memiliki banyak karyawan (thread) yang harus melakukan pekerjaan (tugas) untuk menyelesaikan proyek besar. Namun, hanya ada satu manajer (proses tunggal) yang mengatur dan mengkoordinasikan semua aktivitas. Para karyawan (thread) harus secara berurutan berbicara dengan manajer (proses tunggal) untuk mendapatkan arahan dan melaporkan kemajuan pekerjaan mereka.
 
-    
+            Dalam hal ini, banyak karyawan (thread) harus menunggu giliran untuk berbicara dengan manajer (proses tunggal), yang dapat menyebabkan penundaan dan efisiensi yang rendah karena ada bottleneck pada manajer (proses tunggal). Ini mencerminkan model Many-to-One di mana banyak thread harus berkomunikasi melalui satu proses tunggal untuk melakukan pekerjaan mereka.
 
+        - ### one-to-one<hr>
+            Model one-to-one dalam pemrograman multithreading adalah skema di mana setiap thread pengguna (user thread) dipetakan langsung ke dalam satu thread kernel (kernel thread). Dengan kata lain, untuk setiap thread pengguna yang dibuat dalam aplikasi, ada satu thread kernel yang sesuai yang dibuat dalam sistem operasi. Dalam model ini, thread-thread pengguna diimplementasikan di ruang pengguna (user space), sementara thread-thread kernel diimplementasikan di ruang kernel (kernel space).
 
+            Kelebihan dari model one-to-one meliputi:
 
+            **Skalabilitas yang Lebih Baik**: Karena setiap thread pengguna dipetakan langsung ke dalam thread kernel yang terpisah, model ini memungkinkan aplikasi untuk lebih baik memanfaatkan sumber daya multiprosesor. Thread-thread pengguna dapat didistribusikan di seluruh prosesor, meningkatkan kinerja aplikasi secara keseluruhan.
 
+            **Responsifitas yang Lebih Baik**: Karena setiap thread pengguna memiliki thread kernel yang terpisah, operasi blocking pada satu thread pengguna tidak mempengaruhi thread-thread pengguna lainnya. Dengan demikian, aplikasi cenderung lebih responsif terhadap input dan memiliki waktu respons yang lebih baik.
+
+            Namun, model one-to-one juga memiliki beberapa kelemahan:
+
+            **Overhead Pembuatan dan Manajemen Thread**: Karena setiap thread pengguna dipetakan langsung ke dalam thread kernel yang terpisah, pembuatan dan manajemen thread memiliki overhead yang signifikan. Pembuatan thread-thread kernel memerlukan alokasi sumber daya yang lebih besar dari sistem operasi, yang dapat membatasi jumlah maksimum thread yang dapat dibuat oleh aplikasi.
+
+            **Keterbatasan pada Beberapa Sistem Operasi**: Beberapa sistem operasi memiliki batasan pada jumlah thread-thread kernel yang dapat dibuat, yang dapat membatasi skalabilitas aplikasi dalam model one-to-one. Selain itu, mempertahankan jumlah thread-thread kernel yang besar dapat memakan banyak sumber daya sistem.
+
+            Meskipun memiliki kelemahan-kelemahan ini, model one-to-one sering digunakan dalam lingkungan di mana skalabilitas dan responsifitas adalah faktor penting, terutama pada sistem multiprosesor dan pada aplikasi yang membutuhkan kinerja tinggi dan pemrosesan paralel.<br><br>
+
+            ![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week10/Media/Screenshot%202024-05-16%20101843.png?raw=true)<br><br>
+
+            #### Analogi<hr>
+            Dalam model one-to-one dalam multithreading, setiap thread memiliki proses terpisah yang terkait dengannya. Analogi yang cocok untuk ini adalah sebuah tim proyek di mana setiap anggota tim memiliki manajer langsung yang bertanggung jawab atas koordinasi dan pengawasan pekerjaan mereka.
+
+            Misalkan ada sebuah proyek konstruksi besar. Setiap pekerja (thread) memiliki mandor langsung (proses terpisah) yang memberikan arahan, memantau kemajuan, dan menangani masalah yang muncul. Dalam hal ini, setiap pekerja (thread) dapat bekerja secara independen tanpa harus menunggu atau bergantung pada orang lain. Mereka memiliki sumber daya dan otoritas langsung untuk melakukan tugas mereka dengan efisien.
+
+            Analogi ini mencerminkan model one-to-one dalam multithreading, di mana setiap thread memiliki proses terpisah yang terkait dengannya, memungkinkan kinerja yang lebih mandiri dan efisien.<br><br>
+
+        - ### Many-to-Many Model<hr>
+            Model many-to-many dalam pemrograman multithreading adalah skema di mana banyak thread pengguna (user threads) dipetakan ke dalam banyak thread kernel (kernel threads). Dalam model ini, beberapa thread pengguna diimplementasikan di ruang pengguna (user space), dan thread-thread kernel diimplementasikan di ruang kernel (kernel space). Setiap thread pengguna dapat dipetakan ke satu atau lebih thread kernel, dan sebaliknya, beberapa thread kernel dapat melayani satu atau lebih thread pengguna.
+
+            Kelebihan dari model many-to-many meliputi:
+
+            **Skalabilitas yang Lebih Baik**: Karena beberapa thread pengguna dapat dipetakan ke dalam banyak thread kernel, model ini memungkinkan aplikasi untuk lebih baik memanfaatkan sumber daya multiprosesor. Thread-thread pengguna dapat didistribusikan di seluruh prosesor, meningkatkan kinerja aplikasi secara keseluruhan.
+
+            **Responsifitas yang Lebih Baik**: Karena beberapa thread kernel dapat melayani beberapa thread pengguna, operasi blocking pada satu thread pengguna tidak akan mempengaruhi thread-thread pengguna lainnya. Ini memungkinkan aplikasi untuk tetap responsif terhadap input dan memiliki waktu respons yang lebih baik.
+
+            **Kemampuan untuk Menangani Blocking Operations**: Dalam model many-to-many, jika satu thread pengguna mengalami operasi blocking, thread-thread kernel lain masih dapat menangani thread-thread pengguna lainnya, sehingga menghindari penghalangan (blocking) dari seluruh proses.
+
+            Namun, model many-to-many juga memiliki beberapa kelemahan:
+
+            **Kompleksitas Implementasi**: Implementasi model many-to-many seringkali lebih kompleks daripada model-model lainnya, seperti one-to-one atau many-to-one. Manajemen hubungan antara thread-thread pengguna dan thread-thread kernel memerlukan koordinasi yang cermat dan kompleksitas yang lebih besar dalam manajemen sumber daya.
+
+            **Overhead Komunikasi**: Karena beberapa thread pengguna dapat dipetakan ke beberapa thread kernel, ada overhead tambahan dalam komunikasi antara thread-thread pengguna dan thread-thread kernel. Hal ini dapat mempengaruhi kinerja aplikasi, terutama pada skala besar atau pada sistem dengan banyak thread.
+
+            Meskipun memiliki kelemahan-kelemahan ini, model many-to-many sering digunakan dalam lingkungan di mana fleksibilitas, skalabilitas, dan responsifitas adalah faktor penting, terutama pada aplikasi yang berjalan di atas sistem multiprosesor dan memerlukan kinerja tinggi serta pemrosesan paralel.<br><br>
+
+            ![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week10/Media/Screenshot%202024-05-16%20101853.png?raw=true)<br><br>
+
+            #### Analogi<hr>
+            Bayangkan Anda memiliki sebuah proyek pembuatan film. Dalam proyek ini, Anda memiliki beberapa aktor dan beberapa kru. Aktor mungkin terlibat dalam beberapa film yang berbeda, dan kru mungkin bekerja di beberapa film dalam waktu yang bersamaan.
+
+            Analogi ini menggambarkan model many-to-many dalam multithreading. Aktor adalah thread yang menjalankan tugas-tugas tertentu (misalnya, berakting dalam adegan tertentu), dan kru adalah sumber daya yang digunakan oleh thread (misalnya, kamera, pencahayaan, dll.).
+
+            Dalam model many-to-many, beberapa thread (aktor) dapat dieksekusi pada beberapa sumber daya (kru) secara bersamaan. Sebaliknya, beberapa sumber daya (kru) dapat digunakan oleh beberapa thread (aktor) pada saat yang sama.
+
+            Ini memungkinkan efisiensi yang lebih besar dalam pemanfaatan sumber daya, karena beberapa thread dapat menggunakan sumber daya yang sama pada waktu yang bersamaan, dan sumber daya yang sama dapat digunakan oleh beberapa thread.<br><br>
+
+- ## Thread Libraries 
+    Pustaka thread menyediakan API bagi programmer untuk membuat dan mengelola thread. Pustaka thread dapat diimplementasikan di ruang pengguna atau di ruang kernel. Yang pertama melibatkan fungsi API yang diimplementasikan semata-mata di dalam ruang pengguna, tanpa dukungan kernel. Yang terakhir melibatkan pemanggilan sistem, dan membutuhkan kernel dengan dukungan pustaka thread.<br><br>
+
+    Ada tiga pustaka thread utama yang digunakan saat ini:<br>
+    > POSIX Pthreads - dapat disediakan baik sebagai pustaka pengguna atau kernel, sebagai perluasan dari standar POSIX.<br><br>
+    > Win32 threads - disediakan sebagai pustaka tingkat kernel pada sistem Windows.<br><br>
+    > Thread Java - Karena Java umumnya berjalan pada Java Virtual Machine, implementasi thread didasarkan pada OS dan perangkat keras apa pun yang digunakan JVM, yaitu Pthreads atau Win32, tergantung pada sistem.<br><br>
+
+    Bagian berikut ini akan mendemonstrasikan penggunaan thread di ketiga sistem untuk menghitung jumlah bilangan bulat dari 0 hingga N dalam thread terpisah, dan menyimpan hasilnya dalam variabel “jumlah”.
+
+    - #### Pthreads
+        Standar POSIX (IEEE 1003.1c) mendefinisikan spesifikasi untuk pThreads, bukan implementasinya.
+        pThreads tersedia di Solaris, Linux, Mac OSX, Tru64, dan melalui shareware domain publik untuk Windows.
+        Variabel global digunakan bersama di antara semua thread.
+        Satu thread dapat menunggu thread lain untuk bergabung sebelum melanjutkan.
+        pThreads memulai eksekusi pada fungsi yang ditentukan, dalam contoh ini adalah fungsi runner( ):
         
+
+            
+
