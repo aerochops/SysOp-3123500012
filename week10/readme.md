@@ -193,7 +193,7 @@
 
             Karena kelemahan-kelemahan ini, model many-to-one seringkali digantikan oleh model-model multithreading lainnya seperti one-to-one (satu thread pengguna untuk satu thread kernel) dan many-to-many (banyak thread pengguna untuk banyak thread kernel) yang menawarkan lebih banyak fleksibilitas dan kinerja yang lebih baik, terutama dalam lingkungan yang memerlukan skalabilitas dan responsifitas yang tinggi.
 
-            
+
 
 
     
