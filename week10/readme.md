@@ -30,9 +30,11 @@
     - Koordinasi dan Sinkronisasi:
         Koordinasi Tugas: Meskipun setiap pelayan bekerja secara mandiri, mereka harus berkoordinasi untuk memastikan pelayanan berjalan lancar dan tidak ada yang tertinggal. Demikian pula, threads dalam sebuah proses perlu disinkronisasi untuk menghindari konflik dan memastikan integritas data.
 
-    #### Manfaat Threads
+        
 
-    Program multithreaded dapat meningkatkan kinerja dibandingkan dengan program paralel tradisional yang menggunakan banyak proses. Peningkatan kinerja lebih lanjut dapat diperoleh pada sistem multiprosesor yang menggunakan threads.
+        #### Manfaat Threads
+
+        Menurut IBM dalam artikelnya, "Benefits of threads." Program multithreaded dapat meningkatkan kinerja dibandingkan dengan program paralel tradisional yang menggunakan banyak proses. Peningkatan kinerja lebih lanjut dapat diperoleh pada sistem multiprosesor yang menggunakan threads.
 
     - Pengelolaan Threads
 
@@ -54,6 +56,8 @@
 
         Pemrograman multithreaded berguna untuk mengimplementasikan algoritma paralel menggunakan beberapa entitas independen. Namun, ada beberapa kasus di mana beberapa proses harus digunakan daripada beberapa threads.
 
-        Banyak pengenal sistem operasi, sumber daya, status, atau keterbatasan ditentukan pada tingkat proses dan, dengan demikian, dibagikan oleh semua thread dalam proses. Misalnya, ID pengguna dan grup serta izin terkait ditangani pada tingkat proses. Program yang perlu menetapkan ID pengguna berbeda untuk entitas pemrogramannya perlu menggunakan beberapa proses, bukan proses multithreaded tunggal. Contoh lainnya termasuk atribut sistem file, seperti direktori kerja saat ini, dan status serta jumlah maksimum file terbuka. Program multithreaded mungkin tidak sesuai jika atribut ini lebih baik ditangani secara independen. Misalnya, program multi-proses dapat membiarkan setiap proses membuka sejumlah besar file tanpa gangguan dari proses lain.
+        Banyak pengenal sistem operasi, sumber daya, status, atau keterbatasan ditentukan pada tingkat proses dan, dengan demikian, dibagikan oleh semua thread dalam proses. Misalnya, ID pengguna dan grup serta izin terkait ditangani pada tingkat proses. Program yang perlu menetapkan ID pengguna berbeda untuk entitas pemrogramannya perlu menggunakan beberapa proses, bukan proses multithreaded tunggal. Contoh lainnya termasuk atribut sistem file, seperti direktori kerja saat ini, dan status serta jumlah maksimum file terbuka. Program multithreaded mungkin tidak sesuai jika atribut ini lebih baik ditangani secara independen. Misalnya, program multi-proses dapat membiarkan setiap proses membuka sejumlah besar file tanpa gangguan dari proses lain.<br><br>
 
+
+- ## Apa itu threads
         
