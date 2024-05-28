@@ -24,7 +24,7 @@ Praktek Sistem Operasi</br></h2>
 ![alt text](image/firstcomefirstserve.JPG)
 
 #### Perhitungan Proses secara Teori
-![alt text](image/fcfs.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week11/image/FCFS-Hasil.png?raw=true)
 
 #### Flowchart dari First-Come First-Serve Algorithm
 ![alt text](image/FCFS-Flowchart.jpg)
@@ -41,7 +41,7 @@ ___
 ![alt text](image/sjf.png)
 
 #### Hasil percobaan running program
-![alt text](image/sjf-hasil.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week11/image/RR-Hasil.png?raw=true)
 
 #### Flowchart dari Shorted Job Algorithm
 ![alt text](image/sjf.drawio.png)
@@ -56,7 +56,7 @@ ___
 ![alt text](image/round-robin.png)
 
 #### Hasil percobaan running program
-![alt text](image/rr-hasil.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week11/image/SJF-Hasil.png?raw=true)
 
 #### Flowchart dari Round Robin Algorithm
 ![alt text](image/Round-Robin-Flowchart.jpg)
