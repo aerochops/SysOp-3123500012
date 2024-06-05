@@ -28,7 +28,7 @@ Program diaats mencoba  memiliki masalah utama berupa kondisi balapan (race cond
 
 ### Program dengan mutex
 ###### Output : 
-![alt text](mutex.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week12/image/Screenshot%202024-06-05%20220150.png?raw=true)
 
 ###### Analisa : 
 Program kedua menggunakan mekanisme penguncian dengan mutex untuk memastikan akses aman ke shared_counter dalam lingkungan multi-threaded, sehingga mencegah kondisi balapan `(race condition)`. Setiap thread mengunci mutex sebelum mengakses dan memperbarui `shared_counter`, lalu melepaskan `mutex` setelah selesai. Ini memastikan bahwa hanya satu thread yang dapat mengakses `shared_counter` pada satu waktu, menjaga konsistensi nilai. Selain itu, program dengan benar meneruskan indeks thread sebagai argumen ke `pthread_create`, memastikan bahwa informasi ID thread yang dicetak akurat. Secara keseluruhan, program kedua lebih aman dan andal dalam menangani akses ke variabel global yang dibagikan di antara beberapa thread.
