@@ -21,7 +21,7 @@ Praktek Sistem Operasi</br></h2>
 ## TUGAS SOAL 2 (MUTEX)
 ### Program tanpa mutex
 ###### Output : 
-![alt text](no-mutex.png)
+![App Screenshot](https://github.com/aerochops/SysOp-3123500012/blob/main/week12/image/Screenshot%202024-06-04%20140220.png?raw=true)
 
 ###### Analisa : 
 Program diaats mencoba  memiliki masalah utama berupa kondisi balapan (race condition) karena `shared_counter` ditingkatkan oleh setiap `thread` tanpa menggunakan mekanisme penguncian, seperti `mutex`. Ini menyebabkan potensi akses dan pembaruan bersamaan oleh beberapa `thread`, menghasilkan nilai shared_counter yang tidak akurat. Selain itu, argumen yang diteruskan ke `pthread_create` untuk ID `thread` tidak akurat, yang dapat menyebabkan informasi ID thread yang salah dicetak. Hal ini membuat program tidak aman untuk digunakan dalam lingkungan multi-threaded dan dapat menghasilkan output yang tidak dapat diprediksi atau salah.
